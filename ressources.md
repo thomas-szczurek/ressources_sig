@@ -9,7 +9,7 @@ Voir dépot ref_postgresql
 * [mviewer](https://mviewer.netlify.app/fr/) Portail WebSIG proposé par Geobretagne
 
 ### Autres solutions WEB
-* [Geoserver]https://geoserver.org/) Serveur cartographique
+* [Geoserver](https://geoserver.org/) Serveur cartographique
 * [GeoNetwork](https://geonetwork-opensource.org/) Gestion de metadonnées
 * [GeoNetwork Ui](https://github.com/geonetwork/geonetwork-ui) Refonte graphique de GeoNetwork
 * [GeoNode](https://www.geosolutionsgroup.com/technologies/geonode/) IDG complète par Geosolutions
