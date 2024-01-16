@@ -1,4 +1,4 @@
-﻿
+
 # Ressources SIG
 ## POSTGRES
 Voir dépot ref_postgresql
@@ -9,8 +9,8 @@ Voir dépot ref_postgresql
 * [mviewer](https://mviewer.netlify.app/fr/) Portail WebSIG proposé par Geobretagne
 
 ### Autres solutions WEB
-* [Geoserver](https://www.geosolutionsgroup.com/technologies/geoserver/) Serveur cartographique par Geosolutions
-* [GeoNetwork](https://www.geosolutionsgroup.com/technologies/geonetwork/) Gestion de metadonnées par Geosolutions
+* [Geoserver]https://geoserver.org/) Serveur cartographique
+* [GeoNetwork](https://geonetwork-opensource.org/) Gestion de metadonnées
 * [GeoNetwork Ui](https://github.com/geonetwork/geonetwork-ui) Refonte graphique de GeoNetwork
 * [GeoNode](https://www.geosolutionsgroup.com/technologies/geonode/) IDG complète par Geosolutions
 
@@ -26,7 +26,7 @@ Voir dépot ref_postgresql
 ### SGBDR :
 * [Postgresql](https://www.postgresql.org/) coeuravélesdoigts. A partir du moment où on connait l'existance de Postgres, aucun intérêt de présenter les autres sgbdr en mode serveur, ils n'en ont aucun.
 * [SQlite](https://www.sqlite.org/index.html) SGBDR embarqué dans un fichier, non en mode serveur
-* [Duckdb](https://duckdb.org) Nouvelle aternative à SQLite pour système embarqué. Plus orienté analyse (orienté colonnes, fonctionalités modernes avec îvots directs...), mais ne gère pas certaines choses en "oltp" (cascade...). Leur spatial est au 15/01/2024 encore trop limité (pas d'index spatial...).
+* [Duckdb](https://duckdb.org) Nouvelle aternative à SQLite pour système embarqué. Plus orienté analyse (orienté colonnes, fonctionalités modernes avec pîvots directs...), mais ne gère pas certaines choses en "oltp" (cascade...). Leur spatial est au 15/01/2024 encore trop limité (pas d'index spatial...).
 
 ### Outils :
 #### Gestionnaires
