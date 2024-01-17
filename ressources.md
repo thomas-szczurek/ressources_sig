@@ -1,7 +1,7 @@
 
 # Ressources SIG
 ## POSTGRES
-Voir dépot ref_postgresql
+Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/main/references.md)
 
 ## WebSig
 ### Portails
@@ -21,6 +21,9 @@ Voir dépot ref_postgresql
 ### Projets Qgis sur le Web
 * [Lizmap](https://www.lizmap.com/)
 * [G3W-Suite](https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/)
+
+### Storymaps
+* [Storymap js](https://storymap.knightlab.com/) Création de story maps, gratuit
 
 ## Base de données
 
@@ -44,9 +47,6 @@ Voir dépot ref_postgresql
 * [SQLPage](https://sql.ophir.dev/) Client d'application générant des pages web à partir de requêtes sql
 
 ## Python
-
-### Livres
-* [Geocomputation with Python](https://py.geocompx.org/) Apprendre la géomatique avec Python (axé Geopandas et Rasterio)
 
 ### IDE
 * [PyCharm](https://www.jetbrains.com/fr-fr/pycharm/) IDE généraliste
@@ -107,7 +107,7 @@ Voir dépot ref_postgresql
 * [QompliGIS] Validation de données à partir d’un modèle
 * [quick_map_services] accès à plusieurs fonds de cartes WMS (OSM, ESRI, NASA…)
 * [QuickOSM] Récupérer facilement de la donnée OSM
-* [SemiAutomaticClassificationPlugin) Logiciel de télédétection complet
+* [SemiAutomaticClassificationPlugin] Logiciel de télédétection complet
 * [SpreadsheetLayers] import des xls/xlsx dans qgis
 * [UMEP] multiple analyses urbaines
 * [valuetool] ajoute un panneau pour visualiser les valeurs d’un raster au survol souris
@@ -125,7 +125,18 @@ Voir dépot ref_postgresql
 * [Postgres FM](https://postgres.fm/) podcast en anglais spécialisé sur Postgres
 
 ### Blogs
-* [Paul Ramsay blog](http://blog.cleverelephant.ca/)Blog d'un des créateurs de Postgis
-
+* [Paul Ramsay blog](http://blog.cleverelephant.ca/) Blog d'un des créateurs de Postgis
+* [Crunchy data](https://www.crunchydata.com/blog) Blog d'une entreprise spécialisé sur Postgres. Enormement de conseils et de bonnes pratiques, avec sql de haut niveau
+* [EverSQL](https://www.eversql.com/blog/) SQL et BDD généraliste, mais beaucoup de Postgres
+ 
 ### Sites
 * [Site d'Anita Graser](https://anitagraser.com/) réflexions et tutos SIG orientés python
+* [Planet PostgreSQL](https://planet.postgresql.org/) Agrégateur sur PostgreSQL
+
+### Livres
+* [Computational modelling of terrains](https://tudelft3d.github.io/terrainbook/) Modélisation de la représentation numérique du terrain
+* [Geocomputation with Python](https://py.geocompx.org/) Apprendre la géomatique avec Python (axé Geopandas et Rasterio)
+
+### Dépots git
+* [Sources données Fr](https://github.com/ljegou/geotests/blob/master/sources_donnees.md) Dépôt de L Jegou recensant un grand nombre de sources open data sur divers thématiques
+* [Université d'été Dataviz](https://datagistips.github.io/universite-ete-dataviz/) histoire, tutoriels, bonne pratiques, exemples...
