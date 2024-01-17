@@ -16,6 +16,7 @@ Voir dépot ref_postgresql
 
 ### Serveurs de tuile
 * [trex](https://t-rex.tileserver.ch/) Serveur de tuiles vectorielles
+* [tilemaker](https://github.com/systemed/tilemaker/) Génération de tuiles vectorielles à partir d'OSM
 
 ### Projets Qgis sur le Web
 * [Lizmap](https://www.lizmap.com/)
@@ -70,8 +71,9 @@ Voir dépot ref_postgresql
 * [Psycopg](https://www.psycopg.org/) Interface pour bdd PostGres
 * [Pillow](https://pypi.org/project/pillow/) Manipulation d'images, fork de PIL
 * [Jinja2](https://jinja.palletsprojects.com/en/3.1.x/) Moteur de templates
-* [Pandoc](https://pandoc.org/) Conversion entre formats de languages à balises (markdown, html, epub ...)
+* [Pandoc](https://pandoc.org/) Conversion entre formats de languages à balises (markdown, html, epub ...). Necessite d'installer le logiciel avant d'appeler son API python.
 * [Jupyter](https://jupyter.org/) Systèmes de notebooks
+    * [Jupysql](https://jupysql.ploomber.io/en/latest/quick-start.html) Intégration du sql aux notebooks Jupyter 
 * [Quarto](https://quarto.org/index.html) système de publication à partir de markdown ou de notebooks Jupyter
 
 ## QGIS
