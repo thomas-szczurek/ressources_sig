@@ -69,6 +69,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Sqlite3](https://docs.python.org/3/library/sqlite3.html) Interface pour bdd Sqlite
 * [Duckbd](https://duckdb.org/#quickinstall) Interface pour bdd DuckDb
 * [Psycopg](https://www.psycopg.org/) Interface pour bdd PostGres
+* [Pypdf](https://pypi.org/project/pypdf/)/[Repotlab toolkit](https://www.reportlab.com/software/opensource/rl-toolkit/download/) Edition de pdf
 * [Pillow](https://pypi.org/project/pillow/) Manipulation d'images, fork de PIL
 * [Jinja2](https://jinja.palletsprojects.com/en/3.1.x/) Moteur de templates
 * [Pandoc](https://pandoc.org/) Conversion entre formats de languages à balises (markdown, html, epub ...). Necessite d'installer le logiciel avant d'appeler son API python.
