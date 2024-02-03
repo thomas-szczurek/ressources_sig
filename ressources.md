@@ -44,11 +44,16 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 #### Autres
 * [SqliteTools](https://www.sqlite.org/download.html) Bundle d'outils en ligne de commande pour Sqlite : shell, sqldiff et sql analizer (permet d'analyser une base existante)
 
-### Plate-forme Nocode :
-* [Nocodb](https://nocodb.com/) Plate forme de création d'interface de base de données en nocode, peut se brancher sur une base Postgres déjà existante
-
 ### Applications externes :
 * [SQLPage](https://sql.ophir.dev/) Client d'application générant des pages web à partir de requêtes sql
+
+## Plate-formes data ("data fabrick", CDC ...)
+
+### Dashboards
+* [Grafana](https://grafana.com/) Dashboard, rapports..., peut se brancher sur une base Postgres déjà existante
+
+### Consultation en mode "tableau" :
+* [Nocodb](https://nocodb.com/) Plate forme de création d'interface de données en nocode, peut se brancher sur une base Postgres déjà existante
 
 ## Python
 
