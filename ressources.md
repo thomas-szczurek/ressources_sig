@@ -7,6 +7,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 ### Portails
  * [Mapstore](https://www.geosolutionsgroup.com/technologies/mapstore/) Portail WebSIG par Geosolutions
 * [mviewer](https://mviewer.netlify.app/fr/) Portail WebSIG proposé par Geobretagne
+* [Mapbender](https://mapbender.org/en/) Portail WebSiG 
 
 ### Autres solutions WEB
 * [Geoserver](https://geoserver.org/) Serveur cartographique
@@ -22,8 +23,12 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Lizmap](https://www.lizmap.com/)
 * [G3W-Suite](https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/)
 
+### Projets Qgis en applications mobiles
+* [Qfield](https://qfield.org/) transforme un projet qgis en application mobile collaborative (partenaire fr : oslandia)
+* [Mergin Maps](https://fr.merginmaps.com/) transforme un projet qgis en application mobile collaborative (partenaire fr : camptocamp)
+
 ### Storymaps
-* [Storymap js](https://storymap.knightlab.com/) Création de story maps, gratuit
+* [Storymap js](https://storymap.knightlab.com/) Création de story maps.
 
 ## Base de données
 
@@ -35,13 +40,12 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 ### Outils :
 #### Gestionnaires
 * [Dbeaver](https://dbeaver.io/) Gestionnaire universel
-* [DataGrip](https://www.jetbrains.com/fr-fr/datagrip/) Autre gestionnaire universel, payant
 
 #### Autres
 * [SqliteTools](https://www.sqlite.org/download.html) Bundle d'outils en ligne de commande pour Sqlite : shell, sqldiff et sql analizer (permet d'analyser une base existante)
 
 ### Plate-forme Nocode :
-* [Nocodb](https://nocodb.com/) Plate forme de création de base de données en nocode, peut se brancher sur une base Postgres déjà existante
+* [Nocodb](https://nocodb.com/) Plate forme de création d'interface de base de données en nocode, peut se brancher sur une base Postgres déjà existante
 
 ### Applications externes :
 * [SQLPage](https://sql.ophir.dev/) Client d'application générant des pages web à partir de requêtes sql
@@ -75,6 +79,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Pandoc](https://pandoc.org/) Conversion entre formats de languages à balises (markdown, html, epub ...). Necessite d'installer le logiciel avant d'appeler son API python.
 * [Jupyter](https://jupyter.org/) Systèmes de notebooks
     * [Jupysql](https://jupysql.ploomber.io/en/latest/quick-start.html) Intégration du sql aux notebooks Jupyter 
+    * [Leafmap](https://leafmap.org/) package python pour l'aaalyse spatiale et la cartographie interactive dans des notebooks Jupyter
 * [Quarto](https://quarto.org/index.html) système de publication à partir de markdown ou de notebooks Jupyter
 
 ## QGIS
@@ -100,14 +105,17 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [pg_metadata] gestion de métadonnées dans qgis à partir d'une base Postgres
 * [processing_r] ajouter des scripts en R aux processus de traitement
 * [processing_saga_nextgen] ajout des algorithmes de SAGA aux processus de traitement. Gère SAGA 9.x
+* [Project Full Text Search] Du FTS (Full Text Saerch) dans les couches et attributs d'un projet Qgis
 * [qad] Le plugin qui offre les outils d'autocad à QGIS
 * [qfieldsync] synchronisation de plusieurs qfield/qgis grace aux services cloud
+* [qgis2web] générer une page web à partir d'un projet qgis
 * [qgis hub plugin] Accès aux ressources du hub communautaire Qgis
 * [qgis_resource_sharing] mise en commun de ressources (sympboles, mais aussi modèles, scripts R…)
 * [QNEAT3] puissant outil de calcul d’itinéraires (matrices de distances etc.)
 * [QompliGIS] Validation de données à partir d’un modèle
 * [quick_map_services] accès à plusieurs fonds de cartes WMS (OSM, ESRI, NASA…)
 * [QuickOSM] Récupérer facilement de la donnée OSM
+* [togel_label_visibility] activer/desactiver l'affichage des étiquettes simplement
 * [SemiAutomaticClassificationPlugin] Logiciel de télédétection complet
 * [SpreadsheetLayers] import des xls/xlsx dans qgis
 * [UMEP] multiple analyses urbaines
