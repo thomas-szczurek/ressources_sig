@@ -39,26 +39,50 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 
 ### Outils :
 #### Gestionnaires
-* [Dbeaver](https://dbeaver.io/) Gestionnaire universel
+* [Dbeaver](https://dbeaver.io/) Gestionnaire universel, community edition
 
 #### Autres
 * [SqliteTools](https://www.sqlite.org/download.html) Bundle d'outils en ligne de commande pour Sqlite : shell, sqldiff et sql analizer (permet d'analyser une base existante)
+
+### bdd orientée Graphs
+* [Neo4j](https://neo4j.com/) Versio ncommunautaire
 
 ### Applications externes :
 * [SQLPage](https://sql.ophir.dev/) Client d'application générant des pages web à partir de requêtes sql
 
 ## Plate-formes data ("data fabrick", CDC ...)
 
+### ETL
+* [Singer](https://www.singer.io/) Complètement Open Source
+* [Pentaho](https://www.hitachivantara.com/en-us/products/pentaho-plus-platform/data-integration-analytics/pentaho-community-edition.html) Community edition
+
+### Event Schreduler
+* [Apache Kafka](https://kafka.apache.org/) Gestion de souscrptions / publications d'évènements
+
+### Query engine / Data Fabrick
+* [Apache Airflow](https://airflow.apache.org/) concevoir et planifier des workflows
+* [Meltano](https://meltano.com/) fonctionne bien avec l'ETL Singer)
+* [Prestodb](https://prestodb.io/) query engine
+* [Dbt](https://www.getdbt.com/product/what-is-dbt)query engine
+* [Apache Spark](https://spark.apache.org/) Data Fabrick
+
+
 ### Dashboards
+* [redash](https://github.com/getredash/redash) Fait aussi un peu de CDC
 * [Grafana](https://grafana.com/) Dashboard, rapports..., peut se brancher sur une base Postgres déjà existante
 
 ### Consultation en mode "tableau" :
 * [Nocodb](https://nocodb.com/) Plate forme de création d'interface de données en nocode, peut se brancher sur une base Postgres déjà existante
 
+## Traitement image (sattelitaire, segmentation...)
+
+### segmentation sémantique
+* [Immarkus](https://github.com/rsimon/immarkus/wiki)
+
 ## Python
 
 ### IDE
-* [PyCharm](https://www.jetbrains.com/fr-fr/pycharm/) IDE généraliste
+* [PyCharm](https://www.jetbrains.com/fr-fr/pycharm/) IDE généraliste, community edition
 * [Spyder](https://www.spyder-ide.org/) IDE orientée DataScience
 
 ### Frameworks
@@ -120,14 +144,14 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [QompliGIS] Validation de données à partir d’un modèle
 * [quick_map_services] accès à plusieurs fonds de cartes WMS (OSM, ESRI, NASA…)
 * [QuickOSM] Récupérer facilement de la donnée OSM
-* [togel_label_visibility] activer/desactiver l'affichage des étiquettes simplement
+* [togle_label_visibility] activer/desactiver l'affichage des étiquettes simplement
 * [SemiAutomaticClassificationPlugin] Logiciel de télédétection complet
 * [SpreadsheetLayers] import des xls/xlsx dans qgis
 * [UMEP] multiple analyses urbaines
 * [valuetool] ajoute un panneau pour visualiser les valeurs d’un raster au survol souris
 * [VectorBender] permet de géoréférencer du vecteur
 * [ViewshedAnalysis] outil d’analyse de visibilité
-* [wbt_for_qgis] ajout des algorithmes de WhiteBoxTool aux processus de traitement
+* [wbt_for_qgis] ajout des algorithmes de WhiteBoxTool aux processus de traitement. Necessite l'installation de White Box Tools open core.
 
 ### Autre
 * [Dépot générateur de géométrie](https://gitlab.com/GIS-projects/qgis-geometry-generator-examples) Un déport compremant de nombreux examples d'utilisation du générateur de géométrie
