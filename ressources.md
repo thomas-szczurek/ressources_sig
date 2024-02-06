@@ -50,21 +50,24 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 ### Applications externes :
 * [SQLPage](https://sql.ophir.dev/) Client d'application générant des pages web à partir de requêtes sql
 
-## Plate-formes data ("data fabrick", CDC ...)
+## Plate-formes data ("data fabric", CDC ...)
 
 ### ETL
 * [Singer](https://www.singer.io/) Complètement Open Source
 * [Pentaho](https://www.hitachivantara.com/en-us/products/pentaho-plus-platform/data-integration-analytics/pentaho-community-edition.html) Community edition
 
-### Event Schreduler
+### Message Broker / Jobs et Workflow
 * [Apache Kafka](https://kafka.apache.org/) Gestion de souscrptions / publications d'évènements
+* [Apache Airflow](https://airflow.apache.org/) Concevoir et planifier des workflows / jobs
 
-### Query engine / Data Fabrick
-* [Apache Airflow](https://airflow.apache.org/) concevoir et planifier des workflows
-* [Meltano](https://meltano.com/) fonctionne bien avec l'ETL Singer)
+### Data pipelines
+* [Meltano](https://meltano.com/) Création de data pipelines
+
+### Query engine / Data Fabric
 * [Prestodb](https://prestodb.io/) query engine
-* [Dbt](https://www.getdbt.com/product/what-is-dbt)query engine
-* [Apache Spark](https://spark.apache.org/) Data Fabrick
+* [Dbt](https://www.getdbt.com/product/what-is-dbt) query engine
+* [trino](https://trino.io/) query engine
+* [Apache Spark](https://spark.apache.org/) Data Fabric
 
 
 ### Dashboards
