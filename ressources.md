@@ -42,6 +42,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Dbeaver](https://dbeaver.io/) Gestionnaire universel, community edition
 
 #### Autres
+* [Supabase](https://supabase.com) Déployer et gérer une instance PostgreSQL simple via une GUI 
 * [SqliteTools](https://www.sqlite.org/download.html) Bundle d'outils en ligne de commande pour Sqlite : shell, sqldiff et sql analizer (permet d'analyser une base existante)
 
 ### bdd orientée Graphs
