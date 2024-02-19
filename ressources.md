@@ -11,8 +11,11 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 
 ### Autres solutions WEB
 * [Geoserver](https://geoserver.org/) Serveur cartographique
+* [Leaflet](https://leafletjs.com/) Librairie JavaScript de Webmapping
+* [Maplibre](https://maplibre.org/) Librairie JavaScript de Webmapping
 * [GeoNetwork](https://geonetwork-opensource.org/) Gestion de metadonnées
 * [GeoNetwork Ui](https://github.com/geonetwork/geonetwork-ui) Refonte graphique de GeoNetwork
+* [GeOrchestra](https://www.georchestra.org/fr/) IDG, complète créée pour répondre à INSPIRE
 * [GeoNode](https://www.geosolutionsgroup.com/technologies/geonode/) IDG complète par Geosolutions
 
 ### Serveurs de tuile
@@ -29,6 +32,11 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 
 ### Storymaps
 * [Storymap js](https://storymap.knightlab.com/) Création de story maps.
+
+## Point Cloud / Lidar
+* [pdal](https://pdal.io/en/2.6.3/) Le gdal des nuages de points
+* [pdal-parallelizer](https://pypi.org/project/pdal-parallelizer/) Parallélisation de processing pdal
+* [Cloudcompare](https://www.cloudcompare.org/main.html) Logiciel de visualisation et traitements de nuages de points
 
 ## Base de données
 
@@ -70,8 +78,9 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [trino](https://trino.io/) query engine
 * [Apache Spark](https://spark.apache.org/) Data Fabric
 
-
 ### Dashboards
+* [Observablehq](https://observablehq.com/) Création de "datappa" avec Dahsboards, rapports...
+* [Apache Superset](https://superset.apache.org/) plateforme de d'eploration et de visualisation de données
 * [redash](https://github.com/getredash/redash) Fait aussi un peu de CDC
 * [Grafana](https://grafana.com/) Dashboard, rapports..., peut se brancher sur une base Postgres déjà existante
 
