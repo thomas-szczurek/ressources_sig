@@ -8,6 +8,21 @@ sudo adduser user-name sudo
 
 reboot pc
 
+- drivers Nvidia 
+-- /etc/apt/sources.list -> passer bookworm en sid si nécessaire
+-- Ajoutez les éléments « contrib », « non-free » et « non-free-firmware » à /etc/apt/sources.list, par exemple : 
+```
+deb http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
+```
+```bash
+sudo apt update
+sudo apt install nvidia-driver firmware-misc-nonfree
+sudo apt install nvidia-cuda-dev nvidia-cuda-toolkit
+sudo apt install libnvoptix1
+```
+-- repasser sid en bookworm si modifié
+-- reboot pc
+
 ## Qgis
 
 [article geotribu](https://geotribu.fr/articles/2023/2023-01-05_installer-qgis-sur-ubuntu/#choix)
@@ -33,7 +48,7 @@ sudo apt install qgis-plugin-grass
 ```bash
 sudo apt install python3-pip
 sudo apt install python3-venv
-python3 venv /path/to_/venv
+python3 -m venv /path/to_/venv
 ```
 
 - On se créé un profil qgis
@@ -58,7 +73,7 @@ sudo apt-get update
 
 # Install the latest version of PostgreSQL.
 # If you want a specific version, use 'postgresql-12' or similar instead of 'postgresql':
-sudo apt-get -y install postgresql
+sudo apt-get -y install postgresql-16
 ```
 
  **Toujours installer une version spécifique** ex : apt intall postgresql-16
@@ -81,7 +96,6 @@ sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] h
 #
 
 # Install for desktop mode only:
-sudo apt update
 sudo apt install pgadmin4-desktop
 ```
 
@@ -118,8 +132,20 @@ sudo systemctl stop postgresql
 sudo systemctl start postgresql
 ```
 
+
 - restaurer un dump de la base si nécessaire
 - créer la connection du Qgis (avec une autentification dédiée)
+
+## Autres installations
+
+```bash
+sudo apt install pgmodeler
+sudo apt install postgresql-16-ogr-fdw
+```
+- installer ogr_fdw sur la base PostgreSQL
+- Télécharger Pycharm et installer
+- Télécharger WhiteBoxTools et installer
+
 
 ## mamba
 
@@ -131,6 +157,7 @@ bash Miniforge3-$(uname)-$(uname -m).sh
 source "${HOME}/miniforge3/etc/profile.d/conda.sh"
 source "${HOME}/miniforge3/etc/profile.d/mamba.sh"
 conda activate
+conda init
 mamba create -n envi_name
 mamba activate env_name
 ```
@@ -141,3 +168,31 @@ mamba activate env_name
 mamba install package_name
 mamba install spyder
 ```
+- Configure Pycharm pour utiliser l'environnement
+
+## sid
+- /etc/apt/sources.list -> passer bookworm en sid 
+- installation SAGA
+
+```bash
+sudo apt update
+sudo apt install saga
+```
+- /etc/apt/sources.list -> passer sid en bookworm
+
+ ```bash
+sudo apt update
+```
+## Flatpak
+
+```bash
+sudo apt install flatpak
+# plugin spécifique KDE
+sudo apt install plasma-discover-backend-flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+```
+
+- installer Blender, Inkscape, Scribus, Coudcompare
+
+??? Reste OrfeoToolBox dont le Qgis Provider ne semble pas être dispo dans Qgis 3.36 installé de cette manière ??? 
+
