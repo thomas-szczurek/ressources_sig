@@ -100,6 +100,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 ## Hors SIG
 * [ParquetViewer](https://github.com/mukunku/ParquetViewer/releases/) Visualisateur de fichier Parquet
 * [ConEmu](https://conemu.github.io/) Terminal avancé pour Windows
+* [Zeal](https://zealdocs.org/) Lecteur de documentation offline
 
 ### Reseau
 * [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) Client telnet / client SSH (tunnel SSH, permet de rerouter un port d'écoute...)
