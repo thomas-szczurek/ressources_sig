@@ -49,8 +49,12 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 #### Gestionnaires
 * [Dbeaver](https://dbeaver.io/) Gestionnaire universel, community edition
 
+#### Modélisateurs
+* [Pgmodeler](https://pgmodeler.io/) Modélisateur dédié à Postgresql
+* [Looping](https://www.looping-mcd.fr/) Modelisation de modèle Entité Relation, UMP
+
 #### Autres
-* [Supabase](https://supabase.com) Déployer et gérer une instance PostgreSQL simple via une GUI 
+* [Supabase](https://supabase.com) Déployer et gérer une instance PostgreSQL cloud via une GUI 
 * [SqliteTools](https://www.sqlite.org/download.html) Bundle d'outils en ligne de commande pour Sqlite : shell, sqldiff et sql analizer (permet d'analyser une base existante)
 
 ### bdd orientée Graphs
@@ -88,9 +92,17 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Nocodb](https://nocodb.com/) Plate forme de création d'interface de données en nocode, peut se brancher sur une base Postgres déjà existante
 
 ## Traitement image (sattelitaire, segmentation...)
+* [OrfeoToolBox](https://www.orfeo-toolbox.org/) Processing d'imagerie sattelitaire / Téldétection
 
 ### segmentation sémantique
 * [Immarkus](https://github.com/rsimon/immarkus/wiki)
+
+## Hors SIG
+* [ParquetViewer](https://github.com/mukunku/ParquetViewer/releases/) Visualisateur de fichier Parquet
+* [ConEmu](https://conemu.github.io/) Terminal avancé pour Windows
+
+### Reseau
+* [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) Client telnet / client SSH (tunnel SSH, permet de rerouter un port d'écoute...)
 
 ## Python
 
