@@ -181,6 +181,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [wbt_for_qgis] ajout des algorithmes de WhiteBoxTool aux processus de traitement. Necessite l'installation de White Box Tools open core.
 
 ### Autre
+* [Geolmgr] (https://tool.geoimgr.com/) Geotagger des photos en ligne
 * [Dépot générateur de géométrie](https://gitlab.com/GIS-projects/qgis-geometry-generator-examples) Un déport compremant de nombreux examples d'utilisation du générateur de géométrie
 * [Dépot d'expressions Qgis](https://github.com/geographyclub/qgis-expressions) Un dépot comprenant de nombreuses expressions Qgis prêtes à l'emploi
 
