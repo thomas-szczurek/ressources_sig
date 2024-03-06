@@ -33,6 +33,11 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 ### Storymaps
 * [Storymap js](https://storymap.knightlab.com/) Création de story maps.
 
+## Point Cloud / Lidar
+* [pdal](https://pdal.io/en/2.6.3/) Le gdal des nuages de points
+* [pdal-parallelizer](https://pypi.org/project/pdal-parallelizer/) Parallélisation de processing pdal
+* [Cloudcompare](https://www.cloudcompare.org/main.html) Logiciel de visualisation et traitements de nuages de points
+
 ## Base de données
 
 ### SGBDR :
@@ -46,7 +51,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 
 #### Modélisateurs
 * [Pgmodeler](https://pgmodeler.io/) Modélisateur dédié à Postgresql
-* [Looping](https://www.looping-mcd.fr/) Modelisation de modèle Entité Relation, UML
+* [Looping](https://www.looping-mcd.fr/) Modelisation de modèle Entité Relation, UMP
 
 #### Autres
 * [Supabase](https://supabase.com) Déployer et gérer une instance PostgreSQL cloud via une GUI 
@@ -86,12 +91,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 ### Consultation en mode "tableau" :
 * [Nocodb](https://nocodb.com/) Plate forme de création d'interface de données en nocode, peut se brancher sur une base Postgres déjà existante
 
-## Point Cloud / Lidar
-* [pdal](https://pdal.io/en/2.6.3/) Le gdal des nuages de points
-* [pdal-parallelizer](https://pypi.org/project/pdal-parallelizer/) Parallélisation de processing pdal
-* [Cloudcompare](https://www.cloudcompare.org/main.html) Logiciel de visualisation et traitements de nuages de points
-
-## Traitement image (teledec, segmentation...)
+## Traitement image (sattelitaire, segmentation...)
 * [OrfeoToolBox](https://www.orfeo-toolbox.org/) Processing d'imagerie sattelitaire / Téldétection
 
 ### segmentation sémantique
@@ -101,7 +101,6 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [ParquetViewer](https://github.com/mukunku/ParquetViewer/releases/) Visualisateur de fichier Parquet
 * [ConEmu](https://conemu.github.io/) Terminal avancé pour Windows
 * [Zeal](https://zealdocs.org/) Lecteur de documentation offline
-* [Jq](https://jqlang.github.io/jq/) processeur de json en ligne de commande (slice, trnznsformation...)
 
 ### Reseau
 * [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) Client telnet / client SSH (tunnel SSH, permet de rerouter un port d'écoute...)

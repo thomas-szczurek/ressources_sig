@@ -1,10 +1,7 @@
----
- 
-
-=## debian
+## debian
 
 - rendre utilisateur user-name membre du groupe sudo
-```bash
+```bash highlight-stlye: breezedark
 su
 sudo adduser user-name sudo
 ```
