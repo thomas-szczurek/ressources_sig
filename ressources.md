@@ -98,10 +98,13 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Immarkus](https://github.com/rsimon/immarkus/wiki)
 
 ## Hors SIG
-* [ParquetViewer](https://github.com/mukunku/ParquetViewer/releases/) Visualisateur de fichier Parquet
+* [tad](https://tadviewer.com) Visualisateur de fichier parquet, avec possibilité de pivots, d'aggrégats...
+* [ParquetViewer](https://github.com/mukunku/ParquetViewer/releases/) Visualisateur de fichiers parquet simple
 * [ConEmu](https://conemu.github.io/) Terminal avancé pour Windows
 * [Zeal](https://zealdocs.org/) Lecteur de documentation offline
-* [Jq](https://jqlang.github.io/jq/) processeur de json en ligne de commande (slice, trnznsformation...)
+* [Jq](https://jqlang.github.io/jq/) processeur de json en ligne de commande (slice, transformation...)
+* [Kgeotag](https://kgeotag.kde.org/) Geotagger des photos, Linux (KDE frameworks)
+* [exiftool](https://exiftool.org/) Geotagger des photos, Windows
 
 ### Reseau
 * [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) Client telnet / client SSH (tunnel SSH, permet de rerouter un port d'écoute...)
@@ -180,11 +183,6 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [ViewshedAnalysis] outil d’analyse de visibilité
 * [wbt_for_qgis] ajout des algorithmes de WhiteBoxTool aux processus de traitement. Necessite l'installation de White Box Tools open core.
 
-### Autre
-* [Geolmgr] (https://tool.geoimgr.com/) Geotagger des photos en ligne
-* [Dépot générateur de géométrie](https://gitlab.com/GIS-projects/qgis-geometry-generator-examples) Un déport compremant de nombreux examples d'utilisation du générateur de géométrie
-* [Dépot d'expressions Qgis](https://github.com/geographyclub/qgis-expressions) Un dépot comprenant de nombreuses expressions Qgis prêtes à l'emploi
-
 ## Ressources Web
 ### Podcasts :
 * [mapscaping](https://mapscaping.com/podcasts/) Podcast en anglais autour de la géomatique et de la cartographie
@@ -204,5 +202,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Geocomputation with Python](https://py.geocompx.org/) Apprendre la géomatique avec Python (axé Geopandas et Rasterio)
 
 ### Dépots git
+* [Dépot générateur de géométrie](https://gitlab.com/GIS-projects/qgis-geometry-generator-examples) Un déport compremant de nombreux examples d'utilisation du générateur de géométrie
+* [Dépot d'expressions Qgis](https://github.com/geographyclub/qgis-expressions) Un dépot comprenant de nombreuses expressions Qgis prêtes à l'emploi
 * [Sources données Fr](https://github.com/ljegou/geotests/blob/master/sources_donnees.md) Dépôt de L Jegou recensant un grand nombre de sources open data sur divers thématiques
 * [Université d'été Dataviz](https://datagistips.github.io/universite-ete-dataviz/) histoire, tutoriels, bonne pratiques, exemples...
