@@ -25,6 +25,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 ### Projets Qgis sur le Web
 * [Lizmap](https://www.lizmap.com/)
 * [G3W-Suite](https://g3wsuite.it/en/g3w-suite-publish-qgis-projects/)
+* [QWC](https://github.com/qgis/qwc2) Qgis Web Client, fait pour fonctionner avec qgis serveur.
 
 ### Projets Qgis en applications mobiles
 * [Qfield](https://qfield.org/) transforme un projet qgis en application mobile collaborative (partenaire fr : oslandia)
