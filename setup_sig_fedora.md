@@ -37,7 +37,7 @@ Tout de suite le gros morceau :
 
 ### Installation
 
-> Ici Fedora 39, Postgres 16. Retourner sur le sie de [https://www.postgresql.org/download/linux/redhat/](postgres) pour mettre à jour les commandes si versions différentes. Notamment l'adresse du dépôt et la version de Postgres à installer.
+> Ici Fedora 39, Postgres 16. Retourner sur le sie de [postgres](https://www.postgresql.org/download/linux/redhat/) pour mettre à jour les commandes si versions différentes. Notamment l'adresse du dépôt et la version de Postgres à installer.
 
 On active le dépôt :
 
@@ -103,7 +103,7 @@ sudo dnf install libarrow libarrow-devel parquet-libs
 sudo dnf install postgresql16-devel
 ```
 
-On télécharge [https://github.com/adjust/parquet_fdw](parquet_fdw)
+On télécharge le [parquet_fdw](https://github.com/adjust/parquet_fdw)
 
 Ouvrir un terminal dans l'archive décompressée, puis :
 
@@ -186,13 +186,13 @@ Liste d'extensions obligatoires / interessantes par défaut :
 
 ### Paramétrage
 
-Se rendre sur [https://pgtune.leopard.in.ua/](pgtunes) et indiquer notre configuration matéielle.
+Se rendre sur  [pgtunes]([https://pgtune.leopard.in.ua/) et indiquer notre configuration matéielle.
 Bien faire attention au "db type". Dans notre cas, comme il s'agit d'une base sur laquelle tournera un qgis en continu, on choisis "Desktop application".
 
 Quelques explication des paramètres dont pgtunes vous donne les valeurs adaptées à votre config  :
 
 - `shared_buffers` : La taille de la mémoire ram que postgres pourra utliser comme mémoire tampon.
-- `work_mem`: Défini la taille de la mémoire qui pourra être utilisée par une requête. Attention ! On peut être plusieurs utilisateurs, un utilisataur peut exécuter plusieurs requêtes en même temps... ce qui peut saturer la mémoire si ce paramètre est trop élevé. Dépend aussi du nombre de processeurs disponibles pour la parallélisation. (voir [https://postgres.fm/episodes/work_mem](episode PostgresFM) pour les méandres du paramétrage de work_mem).
+- `work_mem`: Défini la taille de la mémoire qui pourra être utilisée par une requête. Attention ! On peut être plusieurs utilisateurs, un utilisataur peut exécuter plusieurs requêtes en même temps... ce qui peut saturer la mémoire si ce paramètre est trop élevé. Dépend aussi du nombre de processeurs disponibles pour la parallélisation. (voir  [episode PostgresFM](https://postgres.fm/episodes/work_mem) pour les méandres du paramétrage de work_mem).
 - `random_page_cost` : le cout estimé d'un scan séquentiel d'une page utilisé par le planificateur de requête interne.
 - `maintenance_work_mem` : la mémoire disponible pour les opérations de maintenance (aut-vacuum ...).
 - `max_parallel_workers` : le nombre maximum de workers (de "processeurs") que pourra utiliser postgres quand il parallélise une requête.
@@ -366,7 +366,7 @@ mamba install nom_paquet
 
 ### Autres
 
-[https://saga-gis.sourceforge.io/en/index.html](SAGA GIS) (dont on va ajouter les algorithmes à qgis via saga-provider)
+[SAGA-GIS](https://saga-gis.sourceforge.io/en/index.html) (dont on va ajouter les algorithmes à qgis via saga-provider)
 
 ```bash
 # On ajoute le dépôt
@@ -377,11 +377,11 @@ dnf install saga
 
 Puis dans Qgis ajouter l'extension "Processing Saga NextGen"
 
-[https://www.jetbrains.com/fr-fr/pycharm/download/?section=linux](Pycharm community edition)
+[Pycharm community edition](https://www.jetbrains.com/fr-fr/pycharm/download/?section=linux)
 
 Télécharger et extraire l'archive dans le lien. Configurer pour utiliser l'environement mamba (Customize -> All settings -> python interpreter -> Add interpreter -> Conda -> sélectionner l'environnement)
 
-[https://www.gitkraken.com/download/linux-rpm](Git Kraken). Télécharger le rpm  et le lancer.
+[Git Kraken](https://www.gitkraken.com/download/linux-rpm]) Télécharger le rpm en lien et le lancer.
 
 ### Flatpak
 
