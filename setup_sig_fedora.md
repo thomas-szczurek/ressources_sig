@@ -338,8 +338,10 @@ Pour installer qggis :
 ``` bash
 mamba install qgis
 # ou pour une ltr
-mamaba install qgis=3.34.3 #(indiquer le numéro de la vesion ltr actuelle)
+mamba install qgis=3.34.3 #(indiquer le numéro de la vesion ltr actuelle)
 ```
+
+Important ! Dans Qgis -> préférences -> options -> système, on descend à environnement et on clique sur le petit plus vert. Régler `appliquer` = Ajouter au début, `Variable` = PATH, `Valeur` = /home/user/miniforge3/envs/nom_env_install_qgis/bin: (user doit être remplacé par votre notre d'utilisateur (si vous avez installé mamba ici), et bien penser à ajouter ":" à la fin), ceci afin que Qgis trouve ses programmes gdal/ogr .
 
 On pense à bien se créer un profil tout de suite.
 
