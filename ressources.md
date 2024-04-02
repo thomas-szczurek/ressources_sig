@@ -126,8 +126,12 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [xarray](https://docs.xarray.dev/en/stable/) Alternative à Numpy à la mode gérant les arrays muti-dimentionnels
 * [Geopandas](https://geopandas.org/en/stable/) DataAnalyse géospatiale vectorielle. Dépendances [Shapely](https://shapely.readthedocs.io/en/stable/) (manipulation d'objets géométriques) et [Fiona](https://pypi.org/project/fiona/) (ogr pythonesque)
 * [MovingPandas](https://movingpandas.org/) Librairie pour l'analyse des mouvements et des trajectoires sur un réseau
+* [T4gpd](https://t4gpd-docs.readthedocs.io/en/latest/) Bibliothèque complémentaire à GeoPandas ajoutant de nombreuses fonctions d'analyse
+* [Topojson](https://mattijn.github.io/topojson/) Permet d'encoder et de manipuler des objets topojson (gérant les raltions topologiques).
 * [Seaborn](https://seaborn.pydata.org/) Surcouche de matplotlib simplifiant la création de graphiques
 * [Rasterio](https://rasterio.readthedocs.io/en/stable/) Accès à aux données géospatiales raster
+* [Rioxarray](https://corteva.github.io/rioxarray/html/rioxarray.html) Alternative à rasterio utilisant xarray
+* [Rasterstats](https://pythonhosted.org/rasterstats/) Statistiques sur des rasters
 * [Requests](https://pypi.org/project/requests/) Librairie http simple et élégante
 * [Levenstein](https://pypi.org/project/python-Levenshtein/) Permet de calculer la distance entre deux chaines de caractères
 * [Sqlite3](https://docs.python.org/3/library/sqlite3.html) Interface pour bdd Sqlite
@@ -137,9 +141,10 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Pillow](https://pypi.org/project/pillow/) Manipulation d'images, fork de PIL
 * [Jinja2](https://jinja.palletsprojects.com/en/3.1.x/) Moteur de templates
 * [Pandoc](https://pandoc.org/) Conversion entre formats de languages à balises (markdown, html, epub ...). Necessite d'installer le logiciel avant d'appeler son API python.
+* [Folium](https://python-visualization.github.io/folium/latest/) Visualiser ses cartes avec leaflet
 * [Jupyter](https://jupyter.org/) Systèmes de notebooks
     * [Jupysql](https://jupysql.ploomber.io/en/latest/quick-start.html) Intégration du sql aux notebooks Jupyter 
-    * [Leafmap](https://leafmap.org/) package python pour l'aaalyse spatiale et la cartographie interactive dans des notebooks Jupyter
+    * [Leafmap](https://leafmap.org/) package python pour l'analyse spatiale et la cartographie interactive dans des notebooks Jupyter
 * [Quarto](https://quarto.org/index.html) système de publication à partir de markdown ou de notebooks Jupyter
 
 ## QGIS
