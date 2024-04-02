@@ -17,7 +17,7 @@ Ajouter le dép$ot rpmfusion non free :
 ```bash
 # tout d'abord le dépôt libre
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-# puis le dépoît non free
+# puis le dépôt non free
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 sudo dnf update
@@ -51,6 +51,19 @@ On installe postgres
 sudo dnf install -y postgresql16-server
 ```
 
+Les paquets de dev nous seront utiles pour certaines extensions, on les installe donc et ajoute au PATH le chemin des exécutables
+
+```sudo dnf
+sudo dnf install postgresql16-devel
+su
+cd etc/profile.d
+touch var.sh
+nano var.sh
+PATH=/usr/pgsql-16/bin:$PATH # a écrire dans nano
+# CTRL+X pour quitter nano et taper "y" pour enregistrer les modification
+```
+> Je modifie le path pour l'ensemble des utilisateurs, mais si vous ne voulez modifier que celui de l'utilisateur courant, PATH=/usr/pgsql-16/bin:$PATH doit être ajouté à la fin de /home/user/.bashrc (fichier caché par déaut).
+
 On initialise la base de donnée et on fait démarer le service automatiquement :
 
 ```bash
@@ -62,13 +75,8 @@ sudo systemctl start postgresql-16
 En bonus on peut s'installer l'extension Hydra columnar pour la gestion de tables orientées colonnes avec une première compilation depuis les sources facile.
 
 ```bash
-PATH=/usr/pgsql-16/bin:$PATH # ajout au PATH
-
 # D'abord on installe les dépendances 
 sudo dnf install liblzf liblzf-devel libcurl-devel zstd zstd-devel
-
-# installation des entêtes de développement de Postgres
-sudo dnf install postgresql16-devel
 
 # on clone le dépôt dans home/user
 git clone https://github.com/hydradatabase/hydra.git
@@ -108,7 +116,6 @@ On télécharge le [parquet_fdw](https://github.com/adjust/parquet_fdw)
 Ouvrir un terminal dans l'archive décompressée, puis :
 
 ```bash
-PATH=/usr/pgsql-16/bin:$PATH # ajout au PATH
 make install
 ```
 
