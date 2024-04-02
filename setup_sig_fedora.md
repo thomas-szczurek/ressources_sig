@@ -12,7 +12,7 @@ sudo adduser user-name sudo
 
 ### Drivers Nvidia
 
-Ajouter le dép$ot rpmfusion non free :
+Ajouter le dépôt rpmfusion non free :
 
 ```bash
 # tout d'abord le dépôt libre
