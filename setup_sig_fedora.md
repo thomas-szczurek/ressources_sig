@@ -324,10 +324,11 @@ conda config --set auto_activate_base false
 l'avantage de passer par un environnement, c'est que tout le support des paquets python sera bien intégré dans l'interpreteur de qgis.
 Le dépôt qgis spécifique fedora (dani/qgis) n'est de tout façon plus maintenant au moment où ces lignes sont écrites.
 
-Tout d'abord on va installer grass et son support dans qgis via grass-provider, hors envionnement mamba :
+Tout d'abord on va installer qgi-ltr via les dépôts fedora et le support de grass dans qgis via qgis-grass, hors envionnement mamba. Ceci 
+nous permettra deux chose : avoir une ltr de secours, et avoir accès aux algorithmes de grass même dans qgis installé via mamba.
 
 ```bash
-sudo dnf install qgis-grass
+sudo dnf install qgis qgis-grass python3-qgis
 ```
 
 Les algorithmes de grass seront ainsi disponibles dans la boîte à outils de traitement de qgis.
