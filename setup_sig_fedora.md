@@ -53,7 +53,7 @@ sudo dnf install -y postgresql16-server
 
 Les paquets de dev nous seront utiles pour certaines extensions, on les installe donc et ajoute au PATH le chemin des exécutables
 
-```sudo dnf
+```bash
 sudo dnf install postgresql16-devel
 su
 cd etc/profile.d
