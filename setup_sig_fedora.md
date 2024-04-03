@@ -106,9 +106,6 @@ Si on a du courage, on installe le fdw parquet (car contrairement à gdal/ogr, l
 ```bash
 # installation des dépendances libarrow et libparquet
 sudo dnf install libarrow libarrow-devel parquet-libs
-
-# installation des entêtes de développement de Postgres
-sudo dnf install postgresql16-devel
 ```
 
 On télécharge le [parquet_fdw](https://github.com/adjust/parquet_fdw)
