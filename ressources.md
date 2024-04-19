@@ -9,20 +9,21 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [mviewer](https://mviewer.netlify.app/fr/) Portail WebSIG proposé par Geobretagne
 * [Mapbender](https://mapbender.org/en/) Portail WebSiG 
 
-### Services spatiaux
+### Serveurs spatiaux
 * [BBOX](https://www.bbox.earth/installation.html) Server OGC API modulaire complet en Rust. [Voir](https://kalberer.org/pirmin/blog/bbox-0-5-0-release/) (Features, Maps, Tiles, Process...)
+* [Geoserver](https://geoserver.org/) Serveur cartographique
+* [trex](https://t-rex.tileserver.ch/) Serveur de tuiles vectorielles (porbablement supplanté par BBOX du même créateur)
+
+### IDG
+* [GeOrchestra](https://www.georchestra.org/fr/) IDG, complète créée pour répondre à INSPIRE
+* [GeoNode](https://www.geosolutionsgroup.com/technologies/geonode/) IDG complète par Geosolutions
 
 ### Autres solutions WEB
-* [Geoserver](https://geoserver.org/) Serveur cartographique
+
 * [Leaflet](https://leafletjs.com/) Librairie JavaScript de Webmapping
 * [Maplibre](https://maplibre.org/) Librairie JavaScript de Webmapping
 * [GeoNetwork](https://geonetwork-opensource.org/) Gestion de metadonnées
 * [GeoNetwork Ui](https://github.com/geonetwork/geonetwork-ui) Refonte graphique de GeoNetwork
-* [GeOrchestra](https://www.georchestra.org/fr/) IDG, complète créée pour répondre à INSPIRE
-* [GeoNode](https://www.geosolutionsgroup.com/technologies/geonode/) IDG complète par Geosolutions
-
-### Serveurs de tuile
-* [trex](https://t-rex.tileserver.ch/) Serveur de tuiles vectorielles
 * [tilemaker](https://github.com/systemed/tilemaker/) Génération de tuiles vectorielles à partir d'OSM
 
 ### Projets Qgis sur le Web
@@ -127,15 +128,17 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 ### Bibliothèques
 * [Numpy](https://numpy.org/)/[MatPlotlib](https://matplotlib.org/)/[pandas](https://pandas.pydata.org/) Classiques de la datascience
 * [xarray](https://docs.xarray.dev/en/stable/) Alternative à Numpy à la mode gérant les arrays muti-dimentionnels
-* [Geopandas](https://geopandas.org/en/stable/) DataAnalyse géospatiale vectorielle. Dépendances [Shapely](https://shapely.readthedocs.io/en/stable/) (manipulation d'objets géométriques) et [Fiona](https://pypi.org/project/fiona/) (ogr pythonesque)
+* [Geopandas](https://geopandas.org/en/stable/) DataAnalyse géospatiale vectorielle. Dépendances [Shapely](https://shapely.readthedocs.io/en/stable/) (manipulation d'objets géométriques) et [Fiona](https://pypi.org/project/fiona/) (ogr pythonesque). [pyogrio](https://pyogrio.readthedocs.io/en/latest/introduction.html) va supplanter Fiona.
 * [MovingPandas](https://movingpandas.org/) Librairie pour l'analyse des mouvements et des trajectoires sur un réseau
 * [T4gpd](https://t4gpd-docs.readthedocs.io/en/latest/) Bibliothèque complémentaire à GeoPandas ajoutant de nombreuses fonctions d'analyse
-* [Topojson](https://mattijn.github.io/topojson/) Permet d'encoder et de manipuler des objets topojson (gérant les raltions topologiques).
+* [Topojson](https://mattijn.github.io/topojson/) Permet d'encoder et de manipuler des objets topojson (gérant les raltions topologiques)
+* A suivre (pas prêt) : [Polar](https://pola.rs/) / [Geopolar](https://geopolars.org/latest/) Pandas / Geopandas écrit en Rust, conçu pour la parallélisation et orienté colonnes.
 * [Seaborn](https://seaborn.pydata.org/) Surcouche de matplotlib simplifiant la création de graphiques
 * [Rasterio](https://rasterio.readthedocs.io/en/stable/) Accès à aux données géospatiales raster
 * [Rioxarray](https://corteva.github.io/rioxarray/html/rioxarray.html) Alternative à rasterio utilisant xarray
 * [Rasterstats](https://pythonhosted.org/rasterstats/) Statistiques sur des rasters
 * [Requests](https://pypi.org/project/requests/) Librairie http simple et élégante
+* [Dask](https://www.dask.org/) Parrallélisation de workflow Python
 * [Levenstein](https://pypi.org/project/python-Levenshtein/) Permet de calculer la distance entre deux chaines de caractères
 * [Sqlite3](https://docs.python.org/3/library/sqlite3.html) Interface pour bdd Sqlite
 * [Duckbd](https://duckdb.org/#quickinstall) Interface pour bdd DuckDb
