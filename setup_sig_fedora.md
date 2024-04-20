@@ -281,7 +281,7 @@ Dbeaver community edition
 
 Logiciel de gestion de bases universel qu'on utilisera pour les bases sqlite (et geopackage), duckdb...
 
-Se rendre sur le [https://dbeaver.io/download](site de Dbeaver) et télécharger le rpm qu'il suffira de lancer.
+Se rendre sur le [site de Dbeaver](https://dbeaver.io/download) et télécharger le rpm qu'il suffira de lancer.
 
 Et si on veut pousser le vice et qu'on utilise KDE on installe umbrello (modélisateur UML austère qui fait aussi de l'entité relation)
 
