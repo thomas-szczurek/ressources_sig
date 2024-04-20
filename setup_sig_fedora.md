@@ -76,7 +76,7 @@ En bonus on peut s'installer l'extension Hydra columnar pour la gestion de table
 
 ```bash
 # D'abord on installe les dépendances 
-sudo dnf install liblzf liblzf-devel libcurl-devel zstd zstd-devel
+sudo dnf install liblzf liblzf-devel libcurl-devel zstd libzstd-devel lz4 lz4-devel
 
 # on clone le dépôt dans home/user
 git clone https://github.com/hydradatabase/hydra.git
@@ -281,7 +281,7 @@ Dbeaver community edition
 
 Logiciel de gestion de bases universel qu'on utilisera pour les bases sqlite (et geopackage), duckdb...
 
-Se rendre sur le [https://dbeaver.io/download/](site de Dbeaver) et télécharger le rpm qu'il suffira de lancer.
+Se rendre sur le [https://dbeaver.io/download](site de Dbeaver) et télécharger le rpm qu'il suffira de lancer.
 
 Et si on veut pousser le vice et qu'on utilise KDE on installe umbrello (modélisateur UML austère qui fait aussi de l'entité relation)
 
