@@ -162,6 +162,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [CustomToolBar] Création de barres d’outils personnalisées
 * [Dataplotly] Création de graphiques dans Qgis à partir des données d’une couche
 * [Dimensioning] Pour dessiner facilement des lignes de côtes
+* [DistanceCartogram] Créer des cartogrammes de distance
 * [geometric attributes table] Permet de voir les attributs géométriques des entités vectorielles et notamment de sélectionner les entités multipart ou vides. Ne se trouve plus dans le dépôt officiel...
 * [ICEtool] Calculs d’îlots de Chaleur (dépend de UMEP, voir plus bas)
 * [LayerBoard] visualiser et modifier les propriétés de couches vecteur ou raster dans une table
@@ -170,6 +171,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [multipart split] Permet de corriger/séparer les entités multipart qui peuvent provoquer des erreurs de traitement
 * [multiple_layers_tools] outils pour travailler sur plusieurs couches en même temps
 * [MultipleLayerSelection] sélection dans plusieurs couches
+* [Nearest with greater value] Obtenir l'entitée vectorielle la plus proche avec une valeur attributaire définie
 * [nettoyeur] nettoyeur de couches (dépôt du ministère du DD)
 * [NNJoin] calculs de plus proches voisins de points à points
 * [OrfeoToolBox Provider] Ajout des algorithmes d’OrfeoToolBox à Qgis (logiciel de télédétection de l’Agence Spatiale Européenne), ce plugin est intégré par défaut à Qgis
@@ -182,13 +184,16 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [qgis2web] générer une page web à partir d'un projet qgis
 * [qgis hub plugin] Accès aux ressources du hub communautaire Qgis
 * [qgis_resource_sharing] mise en commun de ressources (sympboles, mais aussi modèles, scripts R…)
+* [QGIST Workbench] système de plan de travail pour l'interface de qgis
 * [QNEAT3] puissant outil de calcul d’itinéraires (matrices de distances etc.)
 * [QompliGIS] Validation de données à partir d’un modèle
 * [quick_map_services] accès à plusieurs fonds de cartes WMS (OSM, ESRI, NASA…)
 * [QuickOSM] Récupérer facilement de la donnée OSM
 * [togle_label_visibility] activer/desactiver l'affichage des étiquettes simplement
 * [SemiAutomaticClassificationPlugin] Logiciel de télédétection complet
+* [Spatial Analyzer] Outils d'analyse spatiale (tendence, dispersion, cluster...)
 * [SpreadsheetLayers] import des xls/xlsx dans qgis
+* [Standard Distance] mesure de concentration / dispersion d'objets vectoriels
 * [UMEP] multiple analyses urbaines
 * [valuetool] ajoute un panneau pour visualiser les valeurs d’un raster au survol souris
 * [VectorBender] permet de géoréférencer du vecteur
