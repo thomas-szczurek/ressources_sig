@@ -63,24 +63,11 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 ### Applications externes :
 * [SQLPage](https://sql.ophir.dev/) Client d'application générant des pages web à partir de requêtes sql
 
-## Plate-formes data ("data fabric", CDC ...)
+## Plate-formes data
 
 ### ETL
 * [Singer](https://www.singer.io/) Complètement Open Source
 * [Pentaho](https://www.hitachivantara.com/en-us/products/pentaho-plus-platform/data-integration-analytics/pentaho-community-edition.html) Community edition
-
-### Message Broker / Jobs et Workflow
-* [Apache Kafka](https://kafka.apache.org/) Gestion de souscrptions / publications d'évènements
-* [Apache Airflow](https://airflow.apache.org/) Concevoir et planifier des workflows / jobs
-
-### Data pipelines
-* [Meltano](https://meltano.com/) Création de data pipelines
-
-### Query engine / Data Fabric
-* [Prestodb](https://prestodb.io/) query engine
-* [Dbt](https://www.getdbt.com/product/what-is-dbt) query engine
-* [trino](https://trino.io/) query engine
-* [Apache Spark](https://spark.apache.org/) Data Fabric
 
 ### Dashboards
 * [Observablehq](https://observablehq.com/) Création de "datappa" avec Dahsboards, rapports...
@@ -98,6 +85,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 
 ## Traitement image (teledec, segmentation...)
 * [OrfeoToolBox](https://www.orfeo-toolbox.org/) Processing d'imagerie sattelitaire / Téldétection
+* [Upscayl](https://www.upscayl.org/) Permet d'augmenter la résolution d'une image
 
 ### segmentation sémantique
 * [Immarkus](https://github.com/rsimon/immarkus/wiki)
@@ -161,11 +149,17 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [ChangeDataSource] changer la source des données d’une/plusieurs couches de façon aisée
 * [CustomToolBar] Création de barres d’outils personnalisées
 * [Dataplotly] Création de graphiques dans Qgis à partir des données d’une couche
+* [Dataset QA workbench] Outils de validation QA d'une couche
+* [Digitizing tools] Ajout de nouveaux outils de digitalisation
 * [Dimensioning] Pour dessiner facilement des lignes de côtes
 * [DistanceCartogram] Créer des cartogrammes de distance
 * [geometric attributes table] Permet de voir les attributs géométriques des entités vectorielles et notamment de sélectionner les entités multipart ou vides. Ne se trouve plus dans le dépôt officiel...
+* [geometry shape] Création de formes géométriques simples avec mesures
 * [ICEtool] Calculs d’îlots de Chaleur (dépend de UMEP, voir plus bas)
+* [IDG] accès aux données de la Geoplateforme, de Geo2France, DataGrandEst, GeoBretagne
 * [LayerBoard] visualiser et modifier les propriétés de couches vecteur ou raster dans une table
+* [Layer from clipboard] Création de couches attributaires à partir du contenu du presse papier
+* [Layer Metadata Search] Recherche de couche à partir de leurs metadonnées Postgres
 * [mask] Création de masques
 * [menu_from_project] ajout de barres de menus permettant l’ajout de couches d’un projet (pratique pour configurer un qgis pour utilisateur non averti)
 * [multipart split] Permet de corriger/séparer les entités multipart qui peuvent provoquer des erreurs de traitement
@@ -179,9 +173,11 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [processing_r] ajouter des scripts en R aux processus de traitement
 * [processing_saga_nextgen] ajout des algorithmes de SAGA aux processus de traitement. Gère SAGA 9.x
 * [Project Full Text Search] Du FTS (Full Text Saerch) dans les couches et attributs d'un projet Qgis
+* [Project packager] Empaqueter les couches d'un projet et le fichier projet dans un geopackage 
 * [qad] Le plugin qui offre les outils d'autocad à QGIS
 * [qfieldsync] synchronisation de plusieurs qfield/qgis grace aux services cloud
 * [qgis2web] générer une page web à partir d'un projet qgis
+* [qgis animation workbench] Création d'animations video à partir de qgis
 * [qgis hub plugin] Accès aux ressources du hub communautaire Qgis
 * [qgis_resource_sharing] mise en commun de ressources (sympboles, mais aussi modèles, scripts R…)
 * [QGIST Workbench] système de plan de travail pour l'interface de qgis
@@ -190,9 +186,13 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [quick_map_services] accès à plusieurs fonds de cartes WMS (OSM, ESRI, NASA…)
 * [QuickOSM] Récupérer facilement de la donnée OSM
 * [togle_label_visibility] activer/desactiver l'affichage des étiquettes simplement
+* [Scipy Filter] Ajout d'algorithmes Scipy
 * [SemiAutomaticClassificationPlugin] Logiciel de télédétection complet
+* [Simple ETL] Un ETL dans qgis
 * [Spatial Analyzer] Outils d'analyse spatiale (tendence, dispersion, cluster...)
+* [Spatial Analysis Toolbox] Outils d'analyse spatiale Python (dépendances python : pandas, geopandas, libpysal, esda, mgwr)
 * [SpreadsheetLayers] import des xls/xlsx dans qgis
+* [Spline] Travailler avec des Splines (avec un outil lines to spline)
 * [Standard Distance] mesure de concentration / dispersion d'objets vectoriels
 * [UMEP] multiple analyses urbaines
 * [valuetool] ajoute un panneau pour visualiser les valeurs d’un raster au survol souris
