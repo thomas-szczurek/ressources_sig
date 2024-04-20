@@ -305,7 +305,7 @@ Puis initialiser mamba :
 source "${HOME}/miniforge3/etc/profile.d/conda.sh"
 source "${HOME}/miniforge3/etc/profile.d/mamba.sh"
 conda activate
-conda init
+mamba init
 mamba create -n env_name
 mamba activate env_name
 ```
