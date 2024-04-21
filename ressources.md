@@ -166,7 +166,6 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Autofiltre] Permet de filtrer la couche active avec les objets sélectionnés
 * [Layer from clipboard] Création de couches attributaires à partir du contenu du presse papier
 * [SpreadsheetLayers] import des xls/xlsx dans qgis
-* [togle_label_visibility] activer/desactiver l'affichage des étiquettes simplement
 * [valuetool] ajoute un panneau pour visualiser les valeurs d’un raster au survol souris
   
 #### Digitalisation
