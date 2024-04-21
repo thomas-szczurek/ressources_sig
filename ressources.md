@@ -160,13 +160,14 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [qfieldsync] synchronisation de plusieurs qfield/qgis grace aux services cloud
 * [qgis2web] générer une page web à partir d'un projet qgis
 
-#### QOL
+#### QoL
 
-* [QGIST Workbench] système de plan de travail pour l'interface de qgis
-* [Autofiltre] Permet de filtrer la couche active avec les objets sélectionnés
+* [QGIST Workbench] système de plans de travail pour l'interface de qgis
+* [Memory Layer Saver] Permet de sauvegarder les couches virtuelles en mémoire dans un qgz
 * [Layer from clipboard] Création de couches attributaires à partir du contenu du presse papier
-* [SpreadsheetLayers] import des xls/xlsx dans qgis
 * [valuetool] ajoute un panneau pour visualiser les valeurs d’un raster au survol souris
+* [SpreadsheetLayers] import des xls/xlsx dans qgis
+* [Autofiltre] Permet de filtrer la couche automatiquement active avec les objets sélectionnés
   
 #### Digitalisation
 
@@ -198,7 +199,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 #### Personalisation GUI
 
 * [CustomToolBar] Création de barres d’outils personnalisées
-* [menu_from_project] ajout de barres de menus permettant l’ajout de couches d’un projet (pratique pour configurer un qgis pour utilisateur non averti)
+* [Layers menu_from_project] ajout de barres de menus permettant l’ajout de couches d’un projet (pratique pour configurer un qgis pour utilisateur non averti)
 
 #### Cartographie
 
