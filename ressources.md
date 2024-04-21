@@ -86,9 +86,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 ## Traitement image (teledec, segmentation...)
 * [OrfeoToolBox](https://www.orfeo-toolbox.org/) Processing d'imagerie sattelitaire / Téldétection
 * [Upscayl](https://www.upscayl.org/) Permet d'augmenter la résolution d'une image
-
-### segmentation sémantique
-* [Immarkus](https://github.com/rsimon/immarkus/wiki)
+* [Immarkus](https://github.com/rsimon/immarkus/wiki) Segmentation sémentique
 
 ## Hors SIG
 * [tad](https://tadviewer.com) Visualisateur de fichier parquet, avec possibilité de pivots, d'aggrégats...
