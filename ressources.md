@@ -204,6 +204,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 #### Cartographie
 
 * [DistanceCartogram] Créer des cartogrammes de distance
+* [Cartogram3] Création de cartogrammes
 * [mask] Création de masques
 
 #### Jeux de données
