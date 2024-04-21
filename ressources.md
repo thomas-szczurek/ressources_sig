@@ -142,63 +142,86 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Quarto](https://quarto.org/index.html) système de publication à partir de markdown ou de notebooks Jupyter
 
 ## QGIS
+
 ### Plugins
+
+#### Ajout de fonctionalités
+
+* [Dataplotly] Création de graphiques dans Qgis à partir des données d’une couche
+* [QompliGIS] Validation de données à partir d’un modèle
+* [Dataset QA workbench] Outils de validation QA d'une couche
+* [SemiAutomaticClassificationPlugin] Logiciel de télédétection complet
+* [OrfeoToolBox Provider] Ajout des algorithmes d’OrfeoToolBox à Qgis (logiciel de télédétection de l’Agence Spatiale Européenne), ce plugin est intégré par défaut à Qgis
+* [Simple ETL] Un ETL des couches chargées dans qgis
+* [pg_metadata] gestion de métadonnées dans qgis à partir d'une base Postgres
+* [Layer Metadata Search] Recherche de couche à partir de leurs metadonnées Postgres (peut se coupler à pgmetadata)
+* [qgis animation workbench] Création d'animations video à partir de qgis
+* [qfieldsync] synchronisation de plusieurs qfield/qgis grace aux services cloud
+* [qgis2web] générer une page web à partir d'un projet qgis
+
+#### QOL
+
 * [Autofiltre] Permet de filtrer la couche active avec les objets sélectionnés
+* [Layer from clipboard] Création de couches attributaires à partir du contenu du presse papier
+* [SpreadsheetLayers] import des xls/xlsx dans qgis
+* [QGIST Workbench] système de plan de travail pour l'interface de qgis
+* [togle_label_visibility] activer/desactiver l'affichage des étiquettes simplement
+* [valuetool] ajoute un panneau pour visualiser les valeurs d’un raster au survol souris
+  
+#### Digitalisation
+
+* [qad] Le plugin qui offre les outils d'autocad à QGIS
 * [Bezier editing] dessiner du vecteur en utilisant des courbes de bezier (à la Inkspace/Illustrator)
+* [Spline] Travailler avec des Splines (avec un outil lines to spline)
+* [Digitizing tools] Ajout de nouveaux outils de digitalisation
+* [geometry shape] Création de formes géométriques simples avec mesures
+
+#### Analyse
+
+* [processing_r] ajouter des scripts en R aux processus de traitement
+* [processing_saga_nextgen] ajout des algorithmes de SAGA aux processus de traitement. Gère SAGA 9.x
+* [wbt_for_qgis] ajout des algorithmes de WhiteBoxTool aux processus de traitement. Necessite l'installation de White Box Tools open core.
+* [ProcessX] Outils d'nalyse spatiale
+* [Spatial Analyzer] Outils d'analyse spatiale (tendence, dispersion, cluster...)
+* [Spatial Analysis Toolbox] Outils d'analyse spatiale Python (dépendances python : pandas, geopandas, libpysal, esda, mgwr)
+* [Scipy Filter] Ajout d'algorithmes Scipy
+* [NNJoin] calculs de plus proches voisins de points à points
+* [Nearest with greater value] Obtenir l'entitée vectorielle la plus proche avec une valeur attributaire définie
+* [Nearest neighbor method for linear features] : Nearest neighbor avec des lignes
+* [ICEtool] Calculs d’îlots de Chaleur (dépend de UMEP, voir plus bas)
+* [UMEP] multiple analyses urbaines
+* [QNEAT3] puissant outil de calcul d’itinéraires (matrices de distances etc.)
+* [Networks] outils d'analsyse réseau compléntaires de QNEAT3
+
+#### Personalisation GUI
+
+* [CustomToolBar] Création de barres d’outils personnalisées
+* [menu_from_project] ajout de barres de menus permettant l’ajout de couches d’un projet (pratique pour configurer un qgis pour utilisateur non averti)
+
+#### Cartographie
+
+* [DistanceCartogram] Créer des cartogrammes de distance
+* [mask] Création de masques
+
+#### Autres
+
 * [cadastre] accès aux données du cadastre
 * [ChangeDataSource] changer la source des données d’une/plusieurs couches de façon aisée
-* [CustomToolBar] Création de barres d’outils personnalisées
-* [Dataplotly] Création de graphiques dans Qgis à partir des données d’une couche
-* [Dataset QA workbench] Outils de validation QA d'une couche
-* [Digitizing tools] Ajout de nouveaux outils de digitalisation
 * [Dimensioning] Pour dessiner facilement des lignes de côtes
-* [DistanceCartogram] Créer des cartogrammes de distance
-* [geometric attributes table] Permet de voir les attributs géométriques des entités vectorielles et notamment de sélectionner les entités multipart ou vides. Ne se trouve plus dans le dépôt officiel...
-* [geometry shape] Création de formes géométriques simples avec mesures
-* [ICEtool] Calculs d’îlots de Chaleur (dépend de UMEP, voir plus bas)
 * [IDG] accès aux données de la Geoplateforme, de Geo2France, DataGrandEst, GeoBretagne
 * [LayerBoard] visualiser et modifier les propriétés de couches vecteur ou raster dans une table
-* [Layer from clipboard] Création de couches attributaires à partir du contenu du presse papier
-* [Layer Metadata Search] Recherche de couche à partir de leurs metadonnées Postgres
-* [mask] Création de masques
-* [menu_from_project] ajout de barres de menus permettant l’ajout de couches d’un projet (pratique pour configurer un qgis pour utilisateur non averti)
 * [multipart split] Permet de corriger/séparer les entités multipart qui peuvent provoquer des erreurs de traitement
 * [multiple_layers_tools] outils pour travailler sur plusieurs couches en même temps
 * [MultipleLayerSelection] sélection dans plusieurs couches
-* [Nearest with greater value] Obtenir l'entitée vectorielle la plus proche avec une valeur attributaire définie
 * [nettoyeur] nettoyeur de couches (dépôt du ministère du DD)
-* [NNJoin] calculs de plus proches voisins de points à points
-* [OrfeoToolBox Provider] Ajout des algorithmes d’OrfeoToolBox à Qgis (logiciel de télédétection de l’Agence Spatiale Européenne), ce plugin est intégré par défaut à Qgis
-* [pg_metadata] gestion de métadonnées dans qgis à partir d'une base Postgres
-* [processing_r] ajouter des scripts en R aux processus de traitement
-* [processing_saga_nextgen] ajout des algorithmes de SAGA aux processus de traitement. Gère SAGA 9.x
-* [Project Full Text Search] Du FTS (Full Text Saerch) dans les couches et attributs d'un projet Qgis
+* [Project Full Text Search] Du FTS (Full Text Saerch) dans les couches et attributs d'un projet Qgis (**en alpha, à surveiller**)
 * [Project packager] Empaqueter les couches d'un projet et le fichier projet dans un geopackage 
-* [qad] Le plugin qui offre les outils d'autocad à QGIS
-* [qfieldsync] synchronisation de plusieurs qfield/qgis grace aux services cloud
-* [qgis2web] générer une page web à partir d'un projet qgis
-* [qgis animation workbench] Création d'animations video à partir de qgis
 * [qgis hub plugin] Accès aux ressources du hub communautaire Qgis
 * [qgis_resource_sharing] mise en commun de ressources (sympboles, mais aussi modèles, scripts R…)
-* [QGIST Workbench] système de plan de travail pour l'interface de qgis
-* [QNEAT3] puissant outil de calcul d’itinéraires (matrices de distances etc.)
-* [QompliGIS] Validation de données à partir d’un modèle
 * [quick_map_services] accès à plusieurs fonds de cartes WMS (OSM, ESRI, NASA…)
 * [QuickOSM] Récupérer facilement de la donnée OSM
-* [togle_label_visibility] activer/desactiver l'affichage des étiquettes simplement
-* [Scipy Filter] Ajout d'algorithmes Scipy
-* [SemiAutomaticClassificationPlugin] Logiciel de télédétection complet
-* [Simple ETL] Un ETL dans qgis
-* [Spatial Analyzer] Outils d'analyse spatiale (tendence, dispersion, cluster...)
-* [Spatial Analysis Toolbox] Outils d'analyse spatiale Python (dépendances python : pandas, geopandas, libpysal, esda, mgwr)
-* [SpreadsheetLayers] import des xls/xlsx dans qgis
-* [Spline] Travailler avec des Splines (avec un outil lines to spline)
-* [Standard Distance] mesure de concentration / dispersion d'objets vectoriels
-* [UMEP] multiple analyses urbaines
-* [valuetool] ajoute un panneau pour visualiser les valeurs d’un raster au survol souris
 * [VectorBender] permet de géoréférencer du vecteur
 * [ViewshedAnalysis] outil d’analyse de visibilité
-* [wbt_for_qgis] ajout des algorithmes de WhiteBoxTool aux processus de traitement. Necessite l'installation de White Box Tools open core.
 
 ## Ressources Web
 ### Podcasts :
