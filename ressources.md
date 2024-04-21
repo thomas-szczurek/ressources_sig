@@ -223,6 +223,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 
 * [Project packager] Empaqueter les couches d'un projet et le fichier projet dans un geopackage 
 * [VectorBender] permet de géoréférencer du vecteur
+* [qtiles] création de mbtiles
 * [cadastre] accès aux données du cadastre
 * [ChangeDataSource] changer la source des données d’une/plusieurs couches de façon aisée
 * [nettoyeur] nettoyeur de couches (dépôt du ministère du DD)
