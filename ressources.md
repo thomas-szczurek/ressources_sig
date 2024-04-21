@@ -119,6 +119,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Geopandas](https://geopandas.org/en/stable/) DataAnalyse géospatiale vectorielle. Dépendances [Shapely](https://shapely.readthedocs.io/en/stable/) (manipulation d'objets géométriques) et [Fiona](https://pypi.org/project/fiona/) (ogr pythonesque). [pyogrio](https://pyogrio.readthedocs.io/en/latest/introduction.html) va supplanter Fiona.
 * [MovingPandas](https://movingpandas.org/) Librairie pour l'analyse des mouvements et des trajectoires sur un réseau
 * [T4gpd](https://t4gpd-docs.readthedocs.io/en/latest/) Bibliothèque complémentaire à GeoPandas ajoutant de nombreuses fonctions d'analyse
+* [Pysal](https://pysal.org) python Spatial Analisys librairy (et ses nombreux modules : esda, mgwr ...)
 * [Topojson](https://mattijn.github.io/topojson/) Permet d'encoder et de manipuler des objets topojson (gérant les raltions topologiques)
 * A suivre (pas prêt) : [Polar](https://pola.rs/) / [Geopolar](https://geopolars.org/latest/) Pandas / Geopandas écrit en Rust, conçu pour la parallélisation et orienté colonnes.
 * [Seaborn](https://seaborn.pydata.org/) Surcouche de matplotlib simplifiant la création de graphiques
@@ -161,10 +162,10 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 
 #### QOL
 
+* [QGIST Workbench] système de plan de travail pour l'interface de qgis
 * [Autofiltre] Permet de filtrer la couche active avec les objets sélectionnés
 * [Layer from clipboard] Création de couches attributaires à partir du contenu du presse papier
 * [SpreadsheetLayers] import des xls/xlsx dans qgis
-* [QGIST Workbench] système de plan de travail pour l'interface de qgis
 * [togle_label_visibility] activer/desactiver l'affichage des étiquettes simplement
 * [valuetool] ajoute un panneau pour visualiser les valeurs d’un raster au survol souris
   
@@ -180,6 +181,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 
 * [processing_r] ajouter des scripts en R aux processus de traitement
 * [processing_saga_nextgen] ajout des algorithmes de SAGA aux processus de traitement. Gère SAGA 9.x
+* [LFTools] Divers algorithmes spatiaux (dans la veine de white box tool, 80 % est une copie de trucs existant, 20 % est interessant)
 * [wbt_for_qgis] ajout des algorithmes de WhiteBoxTool aux processus de traitement. Necessite l'installation de White Box Tools open core.
 * [ProcessX] Outils d'nalyse spatiale
 * [Spatial Analyzer] Outils d'analyse spatiale (tendence, dispersion, cluster...)
@@ -192,6 +194,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [UMEP] multiple analyses urbaines
 * [QNEAT3] puissant outil de calcul d’itinéraires (matrices de distances etc.)
 * [Networks] outils d'analsyse réseau compléntaires de QNEAT3
+* [ViewshedAnalysis] outil d’analyse de visibilité
 
 #### Personalisation GUI
 
@@ -203,25 +206,29 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [DistanceCartogram] Créer des cartogrammes de distance
 * [mask] Création de masques
 
-#### Autres
+#### Jeux de données
 
-* [cadastre] accès aux données du cadastre
-* [ChangeDataSource] changer la source des données d’une/plusieurs couches de façon aisée
 * [Dimensioning] Pour dessiner facilement des lignes de côtes
 * [IDG] accès aux données de la Geoplateforme, de Geo2France, DataGrandEst, GeoBretagne
-* [LayerBoard] visualiser et modifier les propriétés de couches vecteur ou raster dans une table
-* [multipart split] Permet de corriger/séparer les entités multipart qui peuvent provoquer des erreurs de traitement
-* [multiple_layers_tools] outils pour travailler sur plusieurs couches en même temps
-* [MultipleLayerSelection] sélection dans plusieurs couches
-* [nettoyeur] nettoyeur de couches (dépôt du ministère du DD)
-* [Project Full Text Search] Du FTS (Full Text Saerch) dans les couches et attributs d'un projet Qgis (**en alpha, à surveiller**)
-* [Project packager] Empaqueter les couches d'un projet et le fichier projet dans un geopackage 
-* [qgis hub plugin] Accès aux ressources du hub communautaire Qgis
-* [qgis_resource_sharing] mise en commun de ressources (sympboles, mais aussi modèles, scripts R…)
 * [quick_map_services] accès à plusieurs fonds de cartes WMS (OSM, ESRI, NASA…)
 * [QuickOSM] Récupérer facilement de la donnée OSM
+
+#### Partage de ressources
+
+* [qgis hub plugin] Accès aux ressources du hub communautaire Qgis
+* [qgis_resource_sharing] mise en commun de ressources (sympboles, mais aussi modèles, scripts R…)
+
+#### Autres
+
+* [Project packager] Empaqueter les couches d'un projet et le fichier projet dans un geopackage 
 * [VectorBender] permet de géoréférencer du vecteur
-* [ViewshedAnalysis] outil d’analyse de visibilité
+* [cadastre] accès aux données du cadastre
+* [ChangeDataSource] changer la source des données d’une/plusieurs couches de façon aisée
+* [nettoyeur] nettoyeur de couches (dépôt du ministère du DD)
+* [LayerBoard] visualiser et modifier les propriétés de couches vecteur ou raster dans une table
+* [multiple_layers_tools] outils pour travailler sur plusieurs couches en même temps
+* [MultipleLayerSelection] sélection dans plusieurs couches
+* [Project Full Text Search] Du FTS (Full Text Saerch) dans les couches et attributs d'un projet Qgis (**en alpha, à surveiller**)
 
 ## Ressources Web
 ### Podcasts :
@@ -236,10 +243,12 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 ### Sites
 * [Site d'Anita Graser](https://anitagraser.com/) réflexions et tutos SIG orientés python
 * [Planet PostgreSQL](https://planet.postgresql.org/) Agrégateur sur PostgreSQL
+* [Planet OSGeo](https://planet.osgeo.org/) Agrégateur géomatique open source
 
 ### Livres
 * [Computational modelling of terrains](https://tudelft3d.github.io/terrainbook/) Modélisation de la représentation numérique du terrain
 * [Geocomputation with Python](https://py.geocompx.org/) Apprendre la géomatique avec Python (axé Geopandas et Rasterio)
+* [The internals of PostgreSQL](https://www.interdb.jp/pg/) Description complète du fonctionnement interne de postgresql
 
 ### Dépots git
 * [Dépot générateur de géométrie](https://gitlab.com/GIS-projects/qgis-geometry-generator-examples) Un déport compremant de nombreux examples d'utilisation du générateur de géométrie
