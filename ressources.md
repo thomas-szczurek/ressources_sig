@@ -78,7 +78,8 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 ### Consultation en mode "tableau" :
 * [Nocodb](https://nocodb.com/) Plate forme de création d'interface de données en nocode, peut se brancher sur une base Postgres déjà existante
 
-## Point Cloud / Lidar
+## 3D / Point Cloud / Lidar
+* [assimp](https://assimp.org/) Le gdal de la 3d
 * [pdal](https://pdal.io/en/2.6.3/) Le gdal des nuages de points
 * [pdal-parallelizer](https://pypi.org/project/pdal-parallelizer/) Parallélisation de processing pdal
 * [Cloudcompare](https://www.cloudcompare.org/main.html) Logiciel de visualisation et traitements de nuages de points
@@ -174,6 +175,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Bezier editing] dessiner du vecteur en utilisant des courbes de bezier (à la Inkspace/Illustrator)
 * [Spline] Travailler avec des Splines (avec un outil lines to spline)
 * [Digitizing tools] Ajout de nouveaux outils de digitalisation
+* [Dimensioning] Pour dessiner facilement des lignes de côtes
 * [geometry shape] Création de formes géométriques simples avec mesures
 
 #### Analyse
@@ -202,13 +204,13 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 
 #### Cartographie
 
-* [DistanceCartogram] Créer des cartogrammes de distance
 * [Cartogram3] Création de cartogrammes
 * [mask] Création de masques
+* [Relief Vizualiazation Toolblox] Ajout de fonctions d'ombrages avancées
+* [Terrain shading] Ajout de fonctions d'ombrages avancées
 
 #### Jeux de données
 
-* [Dimensioning] Pour dessiner facilement des lignes de côtes
 * [IDG] accès aux données de la Geoplateforme, de Geo2France, DataGrandEst, GeoBretagne
 * [quick_map_services] accès à plusieurs fonds de cartes WMS (OSM, ESRI, NASA…)
 * [QuickOSM] Récupérer facilement de la donnée OSM
@@ -226,13 +228,13 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [PyQgis ressource Browser] explorateur des différentes icones utilisables avec pyqgis
 * [cadastre] accès aux données du cadastre
 * [ChangeDataSource] changer la source des données d’une/plusieurs couches de façon aisée
-* [nettoyeur] nettoyeur de couches (dépôt du ministère du DD)
 * [LayerBoard] visualiser et modifier les propriétés de couches vecteur ou raster dans une table
 * [multiple_layers_tools] outils pour travailler sur plusieurs couches en même temps
 * [MultipleLayerSelection] sélection dans plusieurs couches
 * [Project Full Text Search] Du FTS (Full Text Saerch) dans les couches et attributs d'un projet Qgis (**en alpha, à surveiller**)
 
 ## Ressources Web
+
 ### Podcasts :
 * [mapscaping](https://mapscaping.com/podcasts/) Podcast en anglais autour de la géomatique et de la cartographie
 * [Postgres FM](https://postgres.fm/) podcast en anglais spécialisé sur Postgres
