@@ -104,21 +104,25 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 ## Python
 
 ### IDE
+* [VSCodium](https://vscodium.com/) VsCode, libre et sans Microsoft
 * [PyCharm](https://www.jetbrains.com/fr-fr/pycharm/) IDE généraliste, community edition
 * [Spyder](https://www.spyder-ide.org/) IDE orientée DataScience
 
 ### Frameworks
 * [Django](https://www.djangoproject.com/)/[GeoDjango](https://docs.djangoproject.com/fr/5.0/ref/contrib/gis/) Puissant mais complexe
 * [Flask](https://flask.palletsprojects.com/en/3.0.x/) Reconnu pour être adapté aux matériels embarqués
+* [Dash](https://dash.plotly.com/) Création d'applications data en python
 * [Shiny for Python](https://shiny.posit.co/py/) RShiny, pour Python. Création de pages web, "simple".
 
 ### Bibliothèques
 * [Numpy](https://numpy.org/)/[MatPlotlib](https://matplotlib.org/)/[pandas](https://pandas.pydata.org/) Classiques de la datascience
+* [Scipy](https://scipy.org/) Algotithmes mathématiques scientifiques
+* [Scikit-learn](https://scikit-learn.org/stable/) Machine Learning et stats avancées
 * [xarray](https://docs.xarray.dev/en/stable/) Alternative à Numpy à la mode gérant les arrays muti-dimentionnels
 * [Geopandas](https://geopandas.org/en/stable/) DataAnalyse géospatiale vectorielle. Dépendances [Shapely](https://shapely.readthedocs.io/en/stable/) (manipulation d'objets géométriques) et [Fiona](https://pypi.org/project/fiona/) (ogr pythonesque). [pyogrio](https://pyogrio.readthedocs.io/en/latest/introduction.html) va supplanter Fiona.
 * [MovingPandas](https://movingpandas.org/) Librairie pour l'analyse des mouvements et des trajectoires sur un réseau
 * [T4gpd](https://t4gpd-docs.readthedocs.io/en/latest/) Bibliothèque complémentaire à GeoPandas ajoutant de nombreuses fonctions d'analyse
-* [Pysal](https://pysal.org) python Spatial Analisys librairy (et ses nombreux modules : esda, mgwr ...)
+* [Pysal](https://pysal.org) Python Spatial Analisys librairy (et ses nombreux modules : esda, mgwr ...)
 * [Topojson](https://mattijn.github.io/topojson/) Permet d'encoder et de manipuler des objets topojson (gérant les raltions topologiques)
 * A suivre (pas prêt) : [Polar](https://pola.rs/) / [Geopolar](https://geopolars.org/latest/) Pandas / Geopandas écrit en Rust, conçu pour la parallélisation et orienté colonnes.
 * [Seaborn](https://seaborn.pydata.org/) Surcouche de matplotlib simplifiant la création de graphiques
@@ -127,6 +131,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Rasterstats](https://pythonhosted.org/rasterstats/) Statistiques sur des rasters
 * [Requests](https://pypi.org/project/requests/) Librairie http simple et élégante
 * [Dask](https://www.dask.org/) Parrallélisation de workflow Python
+* [PyArrow](https://arrow.apache.org/docs/python/index.html) Bindings Python pour Apache Arrow
 * [Levenstein](https://pypi.org/project/python-Levenshtein/) Permet de calculer la distance entre deux chaines de caractères
 * [Sqlite3](https://docs.python.org/3/library/sqlite3.html) Interface pour bdd Sqlite
 * [Duckbd](https://duckdb.org/#quickinstall) Interface pour bdd DuckDb
@@ -139,6 +144,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Jupyter](https://jupyter.org/) Systèmes de notebooks
     * [Jupysql](https://jupysql.ploomber.io/en/latest/quick-start.html) Intégration du sql aux notebooks Jupyter 
     * [Leafmap](https://leafmap.org/) package python pour l'analyse spatiale et la cartographie interactive dans des notebooks Jupyter
+* [Contextily](https://contextily.readthedocs.io/en/latest/) Permet de récupérer des tuiles vectorielles sur le web pour faire des fonds de plans de cartes MatPlotLib
 * [Quarto](https://quarto.org/index.html) système de publication à partir de markdown ou de notebooks Jupyter
 
 ## QGIS
