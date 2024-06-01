@@ -10,8 +10,9 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Mapbender](https://mapbender.org/en/) Portail WebSiG 
 
 ### Serveurs spatiaux
-* [BBOX](https://www.bbox.earth/installation.html) Server OGC API modulaire complet en Rust. [Voir](https://kalberer.org/pirmin/blog/bbox-0-5-0-release/) (Features, Maps, Tiles, Process...)
 * [Geoserver](https://geoserver.org/) Serveur cartographique
+* [Qgis serveur](https://docs.qgis.org/3.34/en/docs/server_manual/index.html) Serveur cartographique se basant sur Qgis
+* [BBOX](https://www.bbox.earth/installation.html) Server OGC API modulaire complet en Rust. [Voir](https://kalberer.org/pirmin/blog/bbox-0-5-0-release/) (Features, Maps, Tiles, Process...)
 * [trex](https://t-rex.tileserver.ch/) Serveur de tuiles vectorielles (porbablement supplanté par BBOX du même créateur)
 
 ### IDG
