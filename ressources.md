@@ -82,6 +82,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 ## 3D / Point Cloud / Lidar
 * [assimp](https://assimp.org/) Le gdal de la 3d
 * [pdal](https://pdal.io/en/2.6.3/) Le gdal des nuages de points
+* [Geogram](https://github.com/BrunoLevy/geogram/wiki) librairie de traitements géométriques, de mesh...
 * [pdal-parallelizer](https://pypi.org/project/pdal-parallelizer/) Parallélisation de processing pdal
 * [Cloudcompare](https://www.cloudcompare.org/main.html) Logiciel de visualisation et traitements de nuages de points
 
