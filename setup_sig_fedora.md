@@ -167,7 +167,7 @@ Une fois reconnecté avec notre utilisateur, on créé la base :
 
 1) Clic droit sur "Database" -> "Create" -> "Database"
 2) lui donner un nom et se rendre dans "définition"
-3) Dans "Collation" et "Characer type" selectionner : "fr_FR.UTF-8". Laisser "Tablespace" et "Stategy" (on est en local, activer le WAL est un peu overkill à mon humble avis) vide sauf si bien sur on désire les modifier.
+3) Dans "Collation" et "Characer type" selectionner : "fr_FR.UTF-8" (c.UTF-8 sous PostgreSQL 17). Laisser "Tablespace" et "Stategy" (on est en local, activer le WAL est un peu overkill à mon humble avis) vide sauf si bien sur on désire les modifier.
 4) Dans sécurity, donner tous les "Privileges" au groupe/role créé
 
 Maintenant se reconnecter avec l'utilisateur postgres pour créer les extensions sur cette base (clic droit sur "localhost" -> properties ...)
@@ -229,10 +229,10 @@ ALTER SYSTEM SET shared_buffers TO '4GB';
 
 > De plus on modifira le paramètre `listen_addresses` qui indique les adresses ip que le serveur postgres écoutera. Par défaut cette valeur est 127.0.0.1 (c'est à dire que postgres n'écoute que votre pc). Pour que notre serveur puisse écouter des ip d'autres ordinateurs sur un réseau (local, internet ...) on passe ce paramètre à '*' (spéciale cacedédi à mon rrsi).
 
-Et on redémare le serveur pour prendre en compte les modifications :
+Et on recharge la configuration en compte les modifications :
 
-```bash
-sudo systemctl restart postgresql-16
+```sql
+SELECT pg_reload_conf();
 ```
 
 On peut véfifier la nouvelle valeur des paramètres avec la commande sql :
@@ -361,7 +361,7 @@ mamba install spyder
 
 Lui créer un raccourci avec l'astuce utilisée ci-dessus pour qgis
 
-### Autre spaquets
+### Autres paquets
 
 On préfère installer qgis avant quoi que ce soit pour avoir des dépendances propres. Puis on installe les paquets avec :
 
@@ -384,9 +384,20 @@ dnf install saga
 
 Puis dans Qgis ajouter l'extension "Processing Saga NextGen"
 
-[Pycharm community edition](https://www.jetbrains.com/fr-fr/pycharm/download/?section=linux)
+[VSCodium](https://vscodium.com/))
 
-Télécharger et extraire l'archive dans le lien. Configurer pour utiliser l'environement mamba (Customize -> All settings -> python interpreter -> Add interpreter -> Conda -> sélectionner l'environnement)
+Il s'agit d'un logiciel de programmation / IDE
+
+```sh
+# Ajout de la clef GPG
+sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
+# Ajout du dépôt
+printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/yum.repos.d/vscodium.repo
+# Installation
+sudo dnf install codium
+```
+Ajouter les extensions python et jupyter puis configurer pour utiliser l'environnement mamba par défaut (`File->Preferences->Settings` puis rechercher `interpreter`.
+
 
 [Git Kraken](https://www.gitkraken.com/download/linux-rpm]) Télécharger le rpm en lien et le lancer.
 
