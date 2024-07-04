@@ -137,6 +137,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Levenstein](https://pypi.org/project/python-Levenshtein/) Permet de calculer la distance entre deux chaines de caractères
 * [Sqlite3](https://docs.python.org/3/library/sqlite3.html) Interface pour bdd Sqlite
 * [Duckbd](https://duckdb.org/#quickinstall) Interface pour bdd DuckDb
+* [Sqlglot](https://github.com/tobymao/sqlglot) Transpilation de dialectes SQL (Postgres, Oracle, SQLite, Duckdb...)
 * [Psycopg](https://www.psycopg.org/) Interface pour bdd PostGres
 * [Pypdf](https://pypi.org/project/pypdf/)/[Repotlab toolkit](https://www.reportlab.com/software/opensource/rl-toolkit/download/) Edition de pdf
 * [Pillow](https://pypi.org/project/pillow/) Manipulation d'images, fork de PIL
