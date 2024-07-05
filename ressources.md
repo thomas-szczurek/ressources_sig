@@ -261,6 +261,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 
 ### Livres
 * [Computational modelling of terrains](https://tudelft3d.github.io/terrainbook/) Modélisation de la représentation numérique du terrain
+* [Théorie des graphs](https://www.imo.universite-paris-saclay.fr/~ruette/mathsdiscretes/polygraph-Sigward.pdf) Introduction a la théorie des grahs par l'Université Paris-Saclay
 * [Geocomputation with Python](https://py.geocompx.org/) Apprendre la géomatique avec Python (axé Geopandas et Rasterio)
 * [The internals of PostgreSQL](https://www.interdb.jp/pg/) Description complète du fonctionnement interne de postgresql
 
