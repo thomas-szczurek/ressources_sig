@@ -177,6 +177,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [SpreadsheetLayers] import des xls/xlsx dans qgis
 * [layer Tree Toggle labels Widget] ajout d'un widget de couches pour afficher ou non ses étiquettes (propriété de la couche -> légende -> Contrôles disponibles)
 * [Autofiltre] Permet de filtrer la couche automatiquement active avec les objets sélectionnés
+* [DataSourcePanel] Ajout d'un panneau dédié aux sources de données de projet
   
 #### Digitalisation
 
@@ -218,6 +219,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [mask] Création de masques
 * [Relief Vizualiazation Toolblox] Ajout de fonctions d'ombrages avancées
 * [Terrain shading] Ajout de fonctions d'ombrages avancées
+* [Modular Grid] Permet de tracer des lignes d'accroches réfulièrement espacées pour une nouvelle mise en page
 
 #### Jeux de données
 
