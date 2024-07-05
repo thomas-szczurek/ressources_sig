@@ -180,6 +180,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
   
 #### Digitalisation
 
+* [AutoCorrectBorders](https://github.com/OnroerendErfgoed/brdrQ) Permet d'aligner les limites des polygones d'une couche sur celles d'une couche de référence (pas dans les dépots officiels, à récupérer sur le lien)
 * [qad] Le plugin qui offre les outils d'autocad à QGIS
 * [Bezier editing] dessiner du vecteur en utilisant des courbes de bezier (à la Inkspace/Illustrator)
 * [Spline] Travailler avec des Splines (avec un outil lines to spline)
