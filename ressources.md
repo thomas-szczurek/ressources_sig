@@ -190,6 +190,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Dimensioning] Pour dessiner facilement des lignes de côtes
 * [geometry shape] Création de formes géométriques simples avec mesures
 * [cigeoe_translate_to_fit_to_adjacent_polygon] Auto translate d'un polygone pour l'accrocher au plus proche
+* [cigeoe_reverse_line] inverse le sens de tracé d'une ligne existante
 
 #### Analyse
 
