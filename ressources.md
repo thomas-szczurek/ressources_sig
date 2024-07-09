@@ -174,9 +174,11 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Memory Layer Saver] Permet de sauvegarder les couches virtuelles en mémoire dans un qgz
 * [Layer from clipboard] Création de couches attributaires à partir du contenu du presse papier
 * [valuetool] ajoute un panneau pour visualiser les valeurs d’un raster au survol souris
+* [stats_by_polygon] statistiques d'un raster à partir d'un polygone plus poussées que celles de base et avec graphiques intégrés
 * [layer Tree Toggle labels Widget] ajout d'un widget de couches pour afficher ou non ses étiquettes (propriété de la couche -> légende -> Contrôles disponibles)
 * [Autofiltre] Permet de filtrer la couche automatiquement active avec les objets sélectionnés
 * [DataSourcePanel] Ajout d'un panneau dédié aux sources de données de projet
+* [cigeoe_toggle_vertex_visibility] Afficher les vertices de polygones via le panneau liste des couches
   
 #### Digitalisation
 
@@ -187,6 +189,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Digitizing tools] Ajout de nouveaux outils de digitalisation
 * [Dimensioning] Pour dessiner facilement des lignes de côtes
 * [geometry shape] Création de formes géométriques simples avec mesures
+* [cigeoe_translate_to_fit_to_adjacent_polygon] Auto translate d'un polygone pour l'accrocher au plus proche
 
 #### Analyse
 
