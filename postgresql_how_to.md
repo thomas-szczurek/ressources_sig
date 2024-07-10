@@ -43,8 +43,9 @@ WHERE tgrelid = '<schema>.<table>'::regclass
 
 -- Ensuite
 
-ALTER TABLE <schema>.<mytable>
-   DISABLE TRIGGER "<tgname>"
+ALTER TABLE <schema>.<mytable> DISABLE TRIGGER "<tgname>"
+-- Do your things
+ALTER TABLE <schema>.<mytable> ENABLE TRIGGER "<tgname>"
 ```
 
 ### json
