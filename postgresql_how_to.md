@@ -22,6 +22,31 @@ SELECT con.*
              AND rel.relname = '<table name>';
 ```
 
+### Contraintes d'intégrité
+
+#### Désactivation des triggers (y comprit ceux des checks de clefs étrangère) d'une table
+
+```sql
+ALTER TABLE schema.table_name DISABLE TRIGGER ALL;
+-- Do your things
+ALTER TABLE schema.table_name ENABLE TRIGGER ALL;
+```
+
+#### Désactivation d'un trigger en particuler
+
+```sql
+SELECT tgname,
+       tgtype
+FROM pg_trigger
+WHERE tgrelid = '<schema>.<table>'::regclass
+  AND tgisinternal;
+
+-- Ensuite
+
+ALTER TABLE <schema>.<mytable>
+   DISABLE TRIGGER "<tgname>"
+```
+
 ### json
 
 #### Remplacer le nom d'une clef dans un champ json/jsonb
