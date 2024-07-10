@@ -42,7 +42,7 @@ returning *;
 
 ```sql
 update example
-set <champs> = <champs> - 'name' || jsonb_build_object('name', replace((<champs> ->> 'name'),'<from>','<to>'))
-where <champ> ? 'name'
+set champs = champs - 'name' || jsonb_build_object('name', replace((champs ->> 'name'),'<from>','<to>'))
+where champ ? 'name'
 returning *;
 ```
