@@ -24,7 +24,7 @@ SELECT con.*
 
 ### json
 
-#### Remplacer la valeur d'une clef
+#### Remplacer une clef dans un champ json/jsonb
 
 ```sql
 create table example(id int primary key, js jsonb);
@@ -35,5 +35,14 @@ insert into example values
 update example
 set js = js - 'nme' || jsonb_build_object('name', js->'nme')
 where js ? 'nme'
+returning *;
+```
+
+#### Remplacer la valeur d'une clef dans un champ json/jsonb
+
+```sql
+update example
+set <champs> = <champs> - 'name' || jsonb_build_object('name', replace((<champs> ->> 'name'),'<from>','<to>'))
+where <champ> ? 'name'
 returning *;
 ```
