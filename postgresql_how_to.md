@@ -27,14 +27,14 @@ SELECT con.*
 #### Remplacer le nom d'une clef dans un champ json/jsonb
 
 ```sql
-create table example(id int primary key, js jsonb);
+create table example(id int primary key, champ jsonb);
 insert into example values
     (1, '{"nme": "test"}'),
     (2, '{"nme": "second test"}');
 
 update example
-set js = js - 'nme' || jsonb_build_object('name', js->'nme')
-where js ? 'nme'
+set champ = champ - 'nme' || jsonb_build_object('name', champ -> 'nme')
+where champ ? 'nme'
 returning *;
 ```
 
