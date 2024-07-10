@@ -24,7 +24,7 @@ SELECT con.*
 
 ### json
 
-#### Remplacer une clef dans un champ json/jsonb
+#### Remplacer le nom d'une clef dans un champ json/jsonb
 
 ```sql
 create table example(id int primary key, js jsonb);
