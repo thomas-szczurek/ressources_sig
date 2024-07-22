@@ -256,6 +256,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 
 ### Blogs
 * [Configuration de paramètres pg](https://stormatics.tech/blogs/key-postgresql-configuration-parameters-for-enhanced-performance)
+* [Configuration de paramètres pg2](https://blog.dalibo.com/2024/07/22/lp2.html) Sur le blog Dalibo
 * [Paul Ramsay blog](http://blog.cleverelephant.ca/) Blog d'un des créateurs de Postgis
 * [Crunchy data](https://www.crunchydata.com/blog) Blog d'une entreprise spécialisé sur Postgres. Enormement de conseils et de bonnes pratiques, avec sql de haut niveau
 * [EverSQL](https://www.eversql.com/blog/) SQL et BDD généraliste, mais beaucoup de Postgres
