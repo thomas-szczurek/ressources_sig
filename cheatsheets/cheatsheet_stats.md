@@ -10,6 +10,6 @@ Déterminer classe où se situe la médiane (ou autre quantile) puis :
 
 Pour une classe 30/40 avec fréquences 46,2% et 86,7% :
 
-![img_mediane](../22141565/mediane.png)
+![img_mediane](https://github.com/thomas-szczurek/ressources_sig/tree/master/cheatsheets/img/mediane.png)
 
 Mediane = 30 +((3,68*10) / 35,38)
