@@ -138,7 +138,7 @@ Comme pour l'écart type **A préférer à l'écart moyen relatif**
 
 > coefficient de variation = écart type / moyenne.arithmétique (exprimé en %)
 
-## La Médiale
+## Concentration
 
 Au contraire des `estimateurs` de dispersion, on s'interesse ici à la notion de concentration.
 
@@ -163,3 +163,7 @@ Elle se calcule de la même manière que la médiane, soit graphiquement, soit a
 ### Ecart médiale-médiane
 
 De manière générale, on dit qu'il y a `concentration` lorsqu'on observe de fortes disparités entre la part que représente chaque modalité en terme d'effectifs, et celle qu'elle occupe au niveau des valeurs globales. L'écart médiale-médiane constitue l'un des indicateurs permettant d'évaluer cette concentration.
+
+### courbe de concentration
+
+Courbe avec en abscisse la fréquence cumulée croissante et en ordonnées la valeur globale relative (x -> Part des effectifs, y -> part des valeurs globales)
