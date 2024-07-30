@@ -159,3 +159,7 @@ On peut ainsi en déterminer les fréquences cumulées croissantes pour chaque v
 Il s'agit de la valeur pour laquelle Qi = 50 %
 
 Elle se calcule de la même manière que la médiane, soit graphiquement, soit algébriquement. (voir médiane)
+
+### Ecart médiale-médiane
+
+De manière générale, on dit qu'il y a `concentration` lorsqu'on observe de fortes disparités entre la part que représente chaque modalité en terme d'effectifs, et celle qu'elle occupe au niveau des valeurs globales. L'écart médiale-médiane constitue l'un des indicateurs permettant d'évaluer cette concentration.
