@@ -164,6 +164,30 @@ Elle se calcule de la même manière que la médiane, soit graphiquement, soit a
 
 De manière générale, on dit qu'il y a `concentration` lorsqu'on observe de fortes disparités entre la part que représente chaque modalité en terme d'effectifs, et celle qu'elle occupe au niveau des valeurs globales. L'écart médiale-médiane constitue l'un des indicateurs permettant d'évaluer cette concentration.
 
-### courbe de concentration
+### courbe de concentration et indice de Gini
 
 Courbe avec en abscisse la fréquence cumulée croissante et en ordonnées la valeur globale relative (x -> Part des effectifs, y -> part des valeurs globales)
+
+![img_mediane](https://github.com/thomas-szczurek/ressources_sig/tree/master/cheatsheets/img/courbe_gini.png)
+
+L'indice de concentration ou `indice de gini` = aire de c / aire triangle OAB. Puisque carré de concentration = 1, triangle OAB = 0,5 donc :
+
+> indice de gini = 2 * aire de c
+
+- Comprit entre 0 et 1
+- plus il est proche de 0, plus la concentration est faible
+- plus il est proche de 1, plus elle est elevée
+
+En simplifiant la courbe à des segments de droite, il est possible d'approcher le gini sans passer par des calculs d'intégrales.
+
+Ainsi, la surface entre la ligne polygonale et l'axe des abscisses correspond à un ensemble de k trapèzes continus (méthode des trapèzes), et entre cette ligne et l'axe OA à un ensemble de k triangles (méthode des triangles).
+
+#### Méthode des trapèzes
+
+![img_mediane](https://github.com/thomas-szczurek/ressources_sig/tree/master/cheatsheets/img/trapezes_gini.png)
+
+Abscices : part du territoire européen en %. Ordonnées : part de la population européenne en %
+
+> gini = 1 - (6064,4 / 100²)
+
+**Ne pas se contenter du gini, afficher la courbe pour en comprendre la répartition interne**
