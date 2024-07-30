@@ -168,7 +168,7 @@ De manière générale, on dit qu'il y a `concentration` lorsqu'on observe de fo
 
 Courbe avec en abscisse la fréquence cumulée croissante et en ordonnées la valeur globale relative (x -> Part des effectifs, y -> part des valeurs globales)
 
-![img_mediane](https://github.com/thomas-szczurek/ressources_sig/tree/master/cheatsheets/img/courbe_gini.png)
+![img_concentration](https://github.com/thomas-szczurek/ressources_sig/tree/master/cheatsheets/img/courbe_gini.png)
 
 L'indice de concentration ou `indice de gini` = aire de c / aire triangle OAB. Puisque carré de concentration = 1, triangle OAB = 0,5 donc :
 
@@ -184,7 +184,7 @@ Ainsi, la surface entre la ligne polygonale et l'axe des abscisses correspond à
 
 #### Méthode des trapèzes
 
-![img_mediane](https://github.com/thomas-szczurek/ressources_sig/tree/master/cheatsheets/img/trapezes_gini.png)
+![img_gini](https://github.com/thomas-szczurek/ressources_sig/tree/master/cheatsheets/img/trapezes_gini.png)
 
 Abscices : part du territoire européen en %. Ordonnées : part de la population européenne en %
 
