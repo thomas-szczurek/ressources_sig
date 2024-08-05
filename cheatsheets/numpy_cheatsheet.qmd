@@ -1,0 +1,5 @@
+### opérateur logiques sur les booléens
+
+- np.logical_or(test1,test2) ou test1/2 sont sur des arrays
+- np.logical_and(test1,test2) ou test1/2 sont sur des arrays
+- np.logical_not
