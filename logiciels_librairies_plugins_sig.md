@@ -127,6 +127,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Pysal](https://pysal.org) Python Spatial Analisys librairy (et ses nombreux modules : esda, mgwr ...)
 * [Topojson](https://mattijn.github.io/topojson/) Permet d'encoder et de manipuler des objets topojson (gérant les raltions topologiques)
 * A suivre (pas prêt) : [Polar](https://pola.rs/) / [Geopolar](https://geopolars.org/latest/) Pandas / Geopandas écrit en Rust, conçu pour la parallélisation et orienté colonnes.
+* [cartogramPy](https://github.com/danlewis85/cartogrampy) Cartogrammes avec Python
 * [Seaborn](https://seaborn.pydata.org/) Surcouche de matplotlib simplifiant la création de graphiques
 * [Rasterio](https://rasterio.readthedocs.io/en/stable/) Accès à aux données géospatiales raster
 * [Rioxarray](https://corteva.github.io/rioxarray/html/rioxarray.html) Alternative à rasterio utilisant xarray
