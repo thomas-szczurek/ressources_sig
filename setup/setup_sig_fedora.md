@@ -181,6 +181,7 @@ Liste d'extensions obligatoires / interessantes par défaut :
 - postgres_fdw (foreign data wrapper sur une autre base postgres)
 - file_fdw (foreign data wrapper sur des fichiers plats type csv)
 - ogr_fdw (foreign data wrapper utilsant ogr, a condition de l'avoir installé)
+- [pg_duckdb](https://github.com/duckdb/pg_duckdb) duckdb dans postgres
 - parquet_fdw (si installé)
 - columnar (tables orientées colonnes avec hydra, si installé)
 - pg_stat_statements (statistiques sur l'utilisation de la base)
