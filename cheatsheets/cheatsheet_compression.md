@@ -11,4 +11,4 @@
 |jpeg        |                  |       |                                                |               |
 |lerc        |                  |       |s'ajoute au zstd ou deflate                     |               |
 
-[https://kokoalberti.com/articles/geotiff-compression-optimization-guide/](Benchmark compression avec Gdal)
+[https://kokoalberti.com/articles/geotiff-compression-optimization-guide](Benchmark compression avec Gdal)
