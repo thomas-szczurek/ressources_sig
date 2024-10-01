@@ -1,3 +1,11 @@
+### Management Database
+
+#### Rafraichir la version de la collation de la base de données
+
+```sql
+ALTER DATABASE mydatabase REFRESH COLLATION VERSION;
+```
+
 ### Description table
 
 #### Description des champs d'une table
