@@ -39,6 +39,8 @@ Tout de suite le gros morceau :
 
 > Ici Fedora 39, Postgres 16. Retourner sur le sie de [postgres](https://www.postgresql.org/download/linux/redhat/) pour mettre à jour les commandes si versions différentes. Notamment l'adresse du dépôt et la version de Postgres à installer.
 
+On créé une partition dédiée qui servira à stocker le répertoire pgdata. Cette partition pourra être montée sur  `/srv`
+
 On active le dépôt :
 
 ```bash
