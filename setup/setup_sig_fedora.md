@@ -52,7 +52,7 @@ On installe postgres et les paquets contrib
 sudo dnf install -y postgresql16-server postgreqsl16-contrib
 ```
 
-Les paquets de dev nous seront utiles pour certaines extensions, on les installe donc et ajoute au PATH le chemin des exécutables
+Les paquets de dev nous seront utiles pour certaines extensions
 
 ```bash
 sudo dnf install postgresql16-devel
@@ -61,8 +61,8 @@ sudo dnf install postgresql16-devel
 On configure le service pour aller chercher le répertoire de données pgdata
 
 ```sh
-mkdir -p /etc/systemd/system/postgresql-15.service.d
-cat > /etc/systemd/system/postgresql-15.service.d/override.conf <<_EOF_
+mkdir -p /etc/systemd/system/postgresql-16.service.d
+cat > /etc/systemd/system/postgresql-16.service.d/override.conf <<_EOF_
 [Service]
 Environment=PGDATA=/srv/data
 _EOF_
