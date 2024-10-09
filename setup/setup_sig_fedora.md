@@ -83,6 +83,8 @@ Initialisation
 PGSETUP_INITDB_OPTIONS="--data-checksums" /usr/pgsql-16/bin/postgresql-16-setup initdb
 ```
 
+Modification des variables d'environnement
+
 ```sh
 su
 cd etc/profile.d
