@@ -39,29 +39,57 @@ Tout de suite le gros morceau :
 
 > Ici Fedora 39, Postgres 16. Retourner sur le sie de [postgres](https://www.postgresql.org/download/linux/redhat/) pour mettre à jour les commandes si versions différentes. Notamment l'adresse du dépôt et la version de Postgres à installer.
 
-On créé une partition dédiée qui servira à stocker le répertoire pgdata. Cette partition pourra être montée sur  `/srv`
+On créé une partition dédiée `pgdata` qui servira à stocker le répertoire pgdata. Cette partition pourra être montée sur  `/srv`
 
 On active le dépôt :
 
 ```bash
 sudo dnf install -y https://download.postgresql.org/pub/repos/yum/reporpms/F-39-x86_64/pgdg-fedora-repo-latest.noarch.rpm
 ```
-
-On installe postgres
+On installe postgres et les paquets contrib
 
 ```bash
-sudo dnf install -y postgresql16-server
+sudo dnf install -y postgresql16-server postgreqsl16-contrib
 ```
 
 Les paquets de dev nous seront utiles pour certaines extensions, on les installe donc et ajoute au PATH le chemin des exécutables
 
 ```bash
 sudo dnf install postgresql16-devel
+```
+
+On configure le service pour aller chercher le répertoire de données pgdata
+
+```sh
+mkdir -p /etc/systemd/system/postgresql-15.service.d
+cat > /etc/systemd/system/postgresql-15.service.d/override.conf <<_EOF_
+[Service]
+Environment=PGDATA=/srv/data
+_EOF_
+
+```
+
+Installation du répertoire de données
+
+Préparation
+
+```sh
+install -d -o postgres -g postgres -m 700 /srv/data
+```
+
+Initialisation
+
+```sh
+PGSETUP_INITDB_OPTIONS="--data-checksums" /usr/pgsql-16/bin/postgresql-16-setup initdb
+```
+
+```sh
 su
 cd etc/profile.d
 touch var.sh
 nano var.sh
 PATH=/usr/pgsql-16/bin:$PATH # a écrire dans nano
+PGDATA=/srv/pgdata
 # CTRL+X pour quitter nano et taper "y" pour enregistrer les modification
 ```
 > Je modifie le path pour l'ensemble des utilisateurs, mais si vous ne voulez modifier que celui de l'utilisateur courant, PATH=/usr/pgsql-16/bin:$PATH doit être ajouté à la fin de /home/user/.bashrc (fichier caché par déaut).
@@ -69,7 +97,6 @@ PATH=/usr/pgsql-16/bin:$PATH # a écrire dans nano
 On initialise la base de donnée et on fait démarer le service automatiquement :
 
 ```bash
-sudo /usr/pgsql-16/bin/postgresql-16-setup initdb
 sudo systemctl enable postgresql-16
 sudo systemctl start postgresql-16
 ```
@@ -100,22 +127,6 @@ sudo dnf install postgis postgis34_16-llvmjit
 
 # On en profite pour s'installer le foreign data wrapper ogr et son support JIT
 sudo dnf install ogr_fdw_16 ogr_fdw_16-llvmjit
-```
-
-
-Si on a du courage, on installe le fdw parquet (car contrairement à gdal/ogr, le fdw ogr ne gère pas le parquet).
-
-```bash
-# installation des dépendances libarrow et libparquet
-sudo dnf install libarrow libarrow-devel parquet-libs
-```
-
-On télécharge le [parquet_fdw](https://github.com/adjust/parquet_fdw)
-
-Ouvrir un terminal dans l'archive décompressée, puis :
-
-```bash
-make install
 ```
 
 
@@ -184,7 +195,6 @@ Liste d'extensions obligatoires / interessantes par défaut :
 - file_fdw (foreign data wrapper sur des fichiers plats type csv)
 - ogr_fdw (foreign data wrapper utilsant ogr, a condition de l'avoir installé)
 - [pg_duckdb](https://github.com/duckdb/pg_duckdb) duckdb dans postgres
-- parquet_fdw (si installé)
 - columnar (tables orientées colonnes avec hydra, si installé)
 - pg_stat_statements (statistiques sur l'utilisation de la base)
 - tablefunc (fonctions de pivots de tables)
