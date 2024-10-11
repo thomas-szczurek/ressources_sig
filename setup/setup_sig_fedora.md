@@ -37,34 +37,34 @@ Tout de suite le gros morceau :
 
 ### Installation
 
-> Ici Fedora 39, Postgres 16. Retourner sur le sie de [postgres](https://www.postgresql.org/download/linux/redhat/) pour mettre à jour les commandes si versions différentes. Notamment l'adresse du dépôt et la version de Postgres à installer.
+> Ici Fedora 40, Postgres 17. Retourner sur le sie de [postgres](https://www.postgresql.org/download/linux/redhat/) pour mettre à jour les commandes si versions différentes. Notamment l'adresse du dépôt et la version de Postgres à installer.
 
 On créé une partition dédiée `pgdata` qui servira à stocker le répertoire pgdata. Cette partition pourra être montée sur  `/srv`
 
 On active le dépôt :
 
 ```bash
-sudo dnf install -y https://download.postgresql.org/pub/repos/yum/reporpms/F-39-x86_64/pgdg-fedora-repo-latest.noarch.rpm
+sudo dnf install -y https://download.postgresql.org/pub/repos/yum/reporpms/F-40-x86_64/pgdg-fedora-repo-latest.noarch.rpm
 ```
 On installe postgres et les paquets contrib
 
 ```bash
-sudo dnf install -y postgresql16-server postgreqsl16-contrib
+sudo dnf install -y postgresql17-server postgreqsl17-contrib
 ```
 
 Les paquets de dev nous seront utiles pour certaines extensions
 
 ```bash
-sudo dnf install postgresql16-devel
+sudo dnf install postgresql17-devel
 ```
 
 On configure le service pour aller chercher le répertoire de données pgdata
 
 ```sh
-mkdir -p /etc/systemd/system/postgresql-16.service.d
-cat > /etc/systemd/system/postgresql-16.service.d/override.conf <<_EOF_
+mkdir -p /etc/systemd/system/postgresql-17.service.d
+cat > /etc/systemd/system/postgresql-17.service.d/override.conf <<_EOF_
 [Service]
-Environment=PGDATA=/srv/data
+Environment=PGDATA=/srv/pgdata
 _EOF_
 
 ```
@@ -74,13 +74,13 @@ Installation du répertoire de données
 Préparation
 
 ```sh
-install -d -o postgres -g postgres -m 700 /srv/data
+install -d -o postgres -g postgres -m 700 /srv/pgdata
 ```
 
 Initialisation
 
 ```sh
-PGSETUP_INITDB_OPTIONS="--data-checksums" /usr/pgsql-16/bin/postgresql-16-setup initdb
+PGSETUP_INITDB_OPTIONS="--data-checksums" /usr/pgsql-17/bin/postgresql-17-setup initdb
 ```
 
 Modification des variables d'environnement
@@ -90,7 +90,7 @@ su
 cd etc/profile.d
 touch var.sh
 nano var.sh
-PATH=/usr/pgsql-16/bin:$PATH # a écrire dans nano
+PATH=/usr/pgsql-17/bin:$PATH # a écrire dans nano
 PGDATA=/srv/pgdata
 # CTRL+X pour quitter nano et taper "y" pour enregistrer les modification
 ```
@@ -99,8 +99,8 @@ PGDATA=/srv/pgdata
 On initialise la base de donnée et on fait démarer le service automatiquement :
 
 ```bash
-sudo systemctl enable postgresql-16
-sudo systemctl start postgresql-16
+sudo systemctl enable postgresql-17
+sudo systemctl start postgresql-17
 ```
 
 En bonus on peut s'installer l'extension Hydra columnar pour la gestion de tables orientées colonnes avec une première compilation depuis les sources facile.
