@@ -94,7 +94,7 @@ PATH=/usr/pgsql-17/bin:$PATH # a écrire dans nano
 PGDATA=/srv/pgdata
 # CTRL+X pour quitter nano et taper "y" pour enregistrer les modification
 ```
-> Je modifie le path pour l'ensemble des utilisateurs, mais si vous ne voulez modifier que celui de l'utilisateur courant, PATH=/usr/pgsql-16/bin:$PATH doit être ajouté à la fin de /home/user/.bashrc (fichier caché par déaut).
+> Je modifie le path pour l'ensemble des utilisateurs, mais si vous ne voulez modifier que celui de l'utilisateur courant, PATH=/usr/pgsql-17/bin:$PATH doit être ajouté à la fin de /home/user/.bashrc (fichier caché par déaut).
 
 On initialise la base de donnée et on fait démarer le service automatiquement :
 
