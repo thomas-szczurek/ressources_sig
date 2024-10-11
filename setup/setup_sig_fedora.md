@@ -122,13 +122,13 @@ make install USE_PGXS=1
 
 Et enfin Postgis et son support Just In Time compilation (JIT).
 
-> Penser à mettre à jour les numéros de version. Ici 34 correspond à Postgis3 3.4 et 16 à Postgres 16.
+> Penser à mettre à jour les numéros de version. Ici 35 correspond à Postgis3 3.5 et 17 à Postgres 17.
 
 ```bash
-sudo dnf install postgis postgis34_16-llvmjit
+sudo dnf install postgis35_17 postgis35_17-llvmjit
 
 # On en profite pour s'installer le foreign data wrapper ogr et son support JIT
-sudo dnf install ogr_fdw_16 ogr_fdw_16-llvmjit
+sudo dnf install ogr_fdw_17 ogr_fdw_17-llvmjit
 ```
 
 
