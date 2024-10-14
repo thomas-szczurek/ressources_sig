@@ -49,7 +49,7 @@ sudo dnf install -y https://download.postgresql.org/pub/repos/yum/reporpms/F-40-
 On installe postgres et les paquets contrib
 
 ```bash
-sudo dnf install -y postgresql17-server postgreqsl17-contrib
+sudo dnf install -y postgresql17-server postgresql17-contrib
 ```
 
 Les paquets de dev nous seront utiles pour certaines extensions
