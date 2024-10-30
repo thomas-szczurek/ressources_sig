@@ -44,7 +44,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 ### SGBDR :
 * [Postgresql](https://www.postgresql.org/) coeuravélesdoigts. A partir du moment où on connait l'existance de Postgres, aucun intérêt de présenter les autres sgbdr en mode serveur, ils n'en ont aucun.
 * [SQlite](https://www.sqlite.org/index.html) SGBDR embarqué dans un fichier, non en mode serveur
-* [Duckdb](https://duckdb.org) Nouvelle aternative à SQLite pour système embarqué. Plus orienté analyse (orienté colonnes, fonctionalités modernes avec pîvots directs...), mais ne gère pas certaines choses en "oltp" (cascade...). Leur spatial est au 15/01/2024 encore trop limité (pas d'index spatial...).
+* [Duckdb](https://duckdb.org) Nouvelle aternative à SQLite pour système embarqué. Plus orienté analyse (orienté colonnes, fonctionalités modernes avec pîvots directs...) et permet d'attaquer des sources externes très diverses, mais ne gère pas certaines choses en "oltp" (cascade...). Leur spatial commence a être viable au 30/10/2024.
 
 ### Outils :
 #### Gestionnaires
