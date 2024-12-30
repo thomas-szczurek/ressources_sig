@@ -399,6 +399,16 @@ dnf install saga
 
 Puis dans Qgis ajouter l'extension "Processing Saga NextGen"
 
+[OTB](https://www.orfeo-toolbox.org/)
+
+- Télécharger l'archive et dézipper
+
+```sh
+source /Path/To/OTB_install/otbenv.profile
+```
+
+- Activer l'extension et régler le founisseur d'algo de qgis (otp_path : /path/to/otb, repertoire des applications otb : /path/to/otb/lib/otb/applications)
+
 [VSCodium](https://vscodium.com/))
 
 Il s'agit d'un logiciel de programmation / IDE
