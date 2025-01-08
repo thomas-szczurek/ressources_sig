@@ -102,17 +102,7 @@ On initialise la base de donnée et on fait démarer le service automatiquement 
 sudo systemctl enable postgresql-17
 sudo systemctl start postgresql-17
 ```
-
-En bonus on peut s'installer l'extension Hydra columnar pour la gestion de tables orientées colonnes avec une première compilation depuis les sources facile.
-
-```bash
-# D'abord on installe les dépendances 
-sudo dnf install liblzf liblzf-devel libcurl-devel zstd libzstd-devel lz4 lz4-devel
-
-# on clone le dépôt dans home/user
-git clone https://github.com/hydradatabase/hydra.git
-```
-
+On attend bien patiemment la sortie de pg_duckdb pour le stockage colonne et autres vu que le projet Hydra est stopéé.
 
 Avec le terminal on se rend dans le dossier home/user/hydra/columnar puis :
 ```
