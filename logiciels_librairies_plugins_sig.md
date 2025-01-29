@@ -88,6 +88,8 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Tyler](https://github.com/3DGI/tyler) Créer des 3d tiles à partir de Cityjson
 * [CityForge](https://oslandia.com/2024/03/19/citybuilder-faciliter-la-reconstruction-3d/) (et son plugin Qgis) Générer du Cityjson
 * [Piero](https://oslandia.com/2024/03/14/piero-lapplication-web-3d-sig-bim-open-source/) Appli web de visualiation 3d (Point Cloud, Cityjson ...)
+* [Cityjon2Gltf](https://github.com/tudelft3d/CityJSON2glTF) Convertir du Cityjson en gltf
+* [CityjonsIO](https://github.com/cityjson/cjio) CLI Python pour manipuler du Cityjson
 
 ## Traitement image (teledec, segmentation...)
 * [OrfeoToolBox](https://www.orfeo-toolbox.org/) Processing d'imagerie sattelitaire / Téldétection
