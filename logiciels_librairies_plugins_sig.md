@@ -90,8 +90,11 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [Piero](https://oslandia.com/2024/03/14/piero-lapplication-web-3d-sig-bim-open-source/) Appli web de visualiation 3d (Point Cloud, Cityjson ...)
 * [Cityjon2Gltf](https://github.com/tudelft3d/CityJSON2glTF) Convertir du Cityjson en gltf
 * [CityjonsIO](https://github.com/cityjson/cjio) CLI Python pour manipuler du Cityjson
+* [cjdb](https://github.com/cityjson/cjdb) CityJson to Postgresql
+* [Py3dtiles](https://gitlab.com/py3dtiles/py3dtiles/) CLI python pour manipuler des 3dtiles
 
 ## Traitement image (teledec, segmentation...)
+* [TerrSt LiberaGIS](https://github.com/ClarkCGA/terrset) Logiciel de télédec. Anciennement Idrissi passé libre
 * [OrfeoToolBox](https://www.orfeo-toolbox.org/) Processing d'imagerie sattelitaire / Téldétection
 * [Upscayl](https://www.upscayl.org/) Permet d'augmenter la résolution d'une image
 * [Immarkus](https://github.com/rsimon/immarkus/wiki) Segmentation sémentique
