@@ -98,6 +98,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [OrfeoToolBox](https://www.orfeo-toolbox.org/) Processing d'imagerie sattelitaire / Téldétection
 * [Upscayl](https://www.upscayl.org/) Permet d'augmenter la résolution d'une image
 * [Immarkus](https://github.com/rsimon/immarkus/wiki) Segmentation sémentique
+* [samgeo](https://github.com/opengeos/segment-geospatial/) segment anything sur du spatial
 
 ## Hors SIG
 * [tad](https://tadviewer.com) Visualisateur de fichier parquet, avec possibilité de pivots, d'aggrégats...
