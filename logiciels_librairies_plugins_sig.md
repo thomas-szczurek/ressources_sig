@@ -159,6 +159,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
     * [Leafmap](https://leafmap.org/) package python pour l'analyse spatiale et la cartographie interactive dans des notebooks Jupyter
 * [Contextily](https://contextily.readthedocs.io/en/latest/) Permet de récupérer des tuiles vectorielles sur le web pour faire des fonds de plans de cartes MatPlotLib
 * [Quarto](https://quarto.org/index.html) système de publication à partir de markdown ou de notebooks Jupyter
+* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) Parseer / Scraper de html/xml
 
 ## QGIS
 
