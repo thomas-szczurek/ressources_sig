@@ -285,6 +285,7 @@ Voir dépot [ref_postgresql](https://github.com/Jean-Roc/ref_postgresql/blob/mai
 * [The internals of PostgreSQL](https://www.interdb.jp/pg/) Description complète du fonctionnement interne de postgresql
 
 ### Dépots git
+* [Dépot Opengeospatial solutions](https://github.com/opengeos) Référence Librairies, logiciels, librairies pythons ... ouvertes
 * [Dépot Mapbox](https://github.com/mapbox/awesome-vector-tiles#servers) Tout sur les tuiles vectorielles
 * [Dépot générateur de géométrie](https://gitlab.com/GIS-projects/qgis-geometry-generator-examples) Un déport compremant de nombreux examples d'utilisation du générateur de géométrie
 * [Dépot d'expressions Qgis](https://github.com/geographyclub/qgis-expressions) Un dépot comprenant de nombreuses expressions Qgis prêtes à l'emploi
